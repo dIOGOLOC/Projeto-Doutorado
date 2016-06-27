@@ -1,0 +1,52 @@
+\begin{thebibliography}{}
+\itemsep0pt
+
+\bibitem[Bensen et~al., 2007]{bensen_processing_2007}
+Bensen, G.~D., M.~H. Ritzwoller, M.~P. Barmin, A.~L. Levshin, F. Lin, M.~P.
+  Moschetti, N.~M. Shapiro, and Y. Yang,  2007, Processing seismic ambient
+  noise data to obtain reliable broad-band surface wave dispersion
+  measurements: {\bf 169}, 1239--1260.
+
+\bibitem[Campillo and Paul, 2003]{campillo_long-range_2003}
+Campillo, M., and A. Paul,  2003, Long-range correlations in the diffuse
+  seismic coda: {\bf 299}, 547--549.
+
+\bibitem[Ekström et~al., 2009]{ekstrom_determination_2009}
+Ekström, G., G.~A. Abers, and S.~C. Webb,  2009, Determination of surface-wave
+  phase velocities across {USArray} from noise and aki's spectral formulation:
+  {\bf 36}, L18301.
+
+\bibitem[Kedar and Webb, 2005]{kedar_oceans_2005}
+Kedar, S., and F.~H. Webb,  2005, The ocean's seismic hum: {\bf 307}, 682--683.
+
+\bibitem[Levshin et~al., 1992]{levshin_peculiarities_1992}
+Levshin, A., L. Ratnikova, and J. Berger,  1992, Peculiarities of surface-wave
+  propagation across central eurasia: {\bf 82}, 2464--2493.
+
+\bibitem[Lin et~al., 2008]{lin_surface_2008}
+Lin, F.-C., M.~P. Moschetti, and M.~H. Ritzwoller,  2008, Surface wave
+  tomography of the western united states from ambient seismic noise: Rayleigh
+  and love wave phase velocity maps: {\bf 173}, 281--298.
+
+\bibitem[Rhie and Romanowicz, 2004]{rhie_excitation_2004}
+Rhie, J., and B. Romanowicz,  2004, Excitation of earth's continuous free
+  oscillations by atmosphere–ocean–seafloor coupling: {\bf 431}, 552--556.
+
+\bibitem[Schulte-Pelkum et~al., 2004]{schulte-pelkum_strong_2004}
+Schulte-Pelkum, V., P.~S. Earle, and F.~L. Vernon,  2004, Strong directivity of
+  ocean-generated seismic noise: {\bf 5}, Q03004.
+
+\bibitem[Shapiro and Campillo, 2004]{shapiro_emergence_2004}
+Shapiro, N.~M., and M. Campillo,  2004, Emergence of broadband rayleigh waves
+  from correlations of the ambient seismic noise: {\bf 31}, L07614.
+
+\bibitem[Stehly et~al., 2006]{stehly_study_2006}
+Stehly, L., M. Campillo, and N.~M. Shapiro,  2006, A study of the seismic noise
+  from its long-range correlation properties: {\bf 111}, no. B10, B10306.
+
+\bibitem[Wapenaar et~al., 2010]{wapenaar_tutorial_2010}
+Wapenaar, K., D. Draganov, R. Snieder, X. Campman, and A. Verdel,  2010,
+  Tutorial on seismic interferometry: Part 1 — basic principles and
+  applications: {\bf 75}, 75A195--75A209.
+
+\end{thebibliography}

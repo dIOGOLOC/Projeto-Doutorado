@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: project1.aux
+The style file: seg.bst.bst
+Database file #1: References.bib.bib
+Warning--I didn't find a database entry for "roux_p-waves_2005"
+Warning--I didn't find a database entry for "poli_emergence_2012"
+Warning--I didn't find a database entry for "gerstoft_global_2008"
+Warning--I didn't find a database entry for "gualtieri_modelling_2014"
+Warning--I didn't find a database entry for "larose_fluctuations_2008"
+Warning--I didn't find a database entry for "forghani_underestimation_2010"
+Warning--I didn't find a database entry for "vidal_retrieval_2014"
+Warning--I didn't find a database entry for "prieto_amplitude_2011"
+Warning--I didn't find a database entry for "boue_teleseismic_2013"
+Warning--I didn't find a database entry for "poli_body-wave_2012"
+Warning--empty journal in bensen_processing_2007
+Warning--empty journal in campillo_long-range_2003
+Warning--empty journal in ekstrom_determination_2009
+Warning--empty journal in kedar_oceans_2005
+Warning--empty journal in levshin_peculiarities_1992
+Warning--empty journal in lin_surface_2008
+Warning--empty journal in rhie_excitation_2004
+Warning--empty journal in schulte-pelkum_strong_2004
+Warning--empty journal in shapiro_emergence_2004
+Warning--empty journal in stehly_study_2006
+Warning--empty journal in wapenaar_tutorial_2010
+You've used 11 entries,
+            2639 wiz_defined-function locations,
+            797 strings with 8992 characters,
+and the built_in function-call counts, 4920 in all, are:
+= -- 520
+> -- 213
+< -- 4
++ -- 76
+- -- 72
+* -- 482
+:= -- 831
+add.period$ -- 11
+call.type$ -- 11
+change.case$ -- 91
+chr.to.int$ -- 11
+cite$ -- 22
+duplicate$ -- 154
+empty$ -- 338
+format.name$ -- 91
+if$ -- 978
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 11
+newline$ -- 37
+num.names$ -- 33
+pop$ -- 76
+preamble$ -- 1
+purify$ -- 91
+quote$ -- 0
+skip$ -- 111
+stack$ -- 0
+substring$ -- 413
+swap$ -- 11
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 66
+warning$ -- 11
+while$ -- 40
+width$ -- 0
+write$ -- 113
+(There were 21 warnings)

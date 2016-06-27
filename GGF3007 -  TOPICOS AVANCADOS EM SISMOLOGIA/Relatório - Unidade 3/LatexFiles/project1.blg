@@ -3,60 +3,61 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: project1.aux
 The style file: seg.bst.bst
 Database file #1: References.bib.bib
-Warning--empty journal in aki_space_1957
 Warning--empty journal in bensen_processing_2007
+Warning--empty journal in boue_teleseismic_2013
 Warning--empty journal in campillo_long-range_2003
-Warning--empty journal in ekstrom_determination_2009
-Warning--empty journal in haned_global_2016
-Warning--empty journal in kedar_oceans_2005
-Warning--empty journal in levshin_peculiarities_1992
-Warning--empty journal in lin_surface_2008
-Warning--empty journal in nishida_global_2009
-Warning--empty journal in rhie_excitation_2004
-Warning--empty journal in schulte-pelkum_strong_2004
+Warning--empty journal in forghani_underestimation_2010
+Warning--empty journal in gerstoft_global_2008
+Warning--empty journal in gualtieri_modelling_2014
+Warning--empty journal in hennino_observation_2001
+Warning--empty journal in larose_fluctuations_2008
+Warning--empty journal in poli_body-wave_2012
+Warning--empty journal in poli_emergence_2012
+Warning--empty journal in prieto_amplitude_2011
+Warning--empty journal in roux_p-waves_2005
 Warning--empty journal in shapiro_emergence_2004
-Warning--empty journal in stehly_study_2006
+Warning--empty journal in vidal_retrieval_2014
 Warning--empty journal in wapenaar_retrieving_2004
 Warning--empty journal in wapenaar_tutorial_2010
-You've used 15 entries,
+You've used 16 entries,
             2639 wiz_defined-function locations,
-            816 strings with 9650 characters,
-and the built_in function-call counts, 6512 in all, are:
-= -- 686
-> -- 278
+            827 strings with 10475 characters,
+and the built_in function-call counts, 7814 in all, are:
+= -- 823
+> -- 397
 < -- 6
-+ -- 98
-- -- 94
-* -- 629
-:= -- 1106
-add.period$ -- 15
-call.type$ -- 15
-change.case$ -- 122
++ -- 141
+- -- 140
+* -- 745
+:= -- 1310
+add.period$ -- 16
+call.type$ -- 16
+change.case$ -- 150
 chr.to.int$ -- 15
-cite$ -- 30
-duplicate$ -- 209
-empty$ -- 450
-format.name$ -- 117
-if$ -- 1293
-int.to.chr$ -- 1
+cite$ -- 32
+duplicate$ -- 250
+empty$ -- 490
+format.name$ -- 162
+if$ -- 1572
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 15
-newline$ -- 49
-num.names$ -- 45
-pop$ -- 104
+missing$ -- 16
+newline$ -- 52
+num.names$ -- 48
+pop$ -- 138
 preamble$ -- 1
-purify$ -- 122
+purify$ -- 150
 quote$ -- 0
-skip$ -- 153
+skip$ -- 195
 stack$ -- 0
-substring$ -- 535
-swap$ -- 14
-text.length$ -- 0
+substring$ -- 573
+swap$ -- 40
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 90
-warning$ -- 15
-while$ -- 53
+type$ -- 96
+warning$ -- 16
+while$ -- 57
 width$ -- 0
-write$ -- 152
-(There were 15 warnings)
+write$ -- 163
+(There were 16 warnings)

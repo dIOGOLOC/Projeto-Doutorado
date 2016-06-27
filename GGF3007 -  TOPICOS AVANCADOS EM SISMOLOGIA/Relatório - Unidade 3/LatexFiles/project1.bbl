@@ -1,61 +1,72 @@
 \begin{thebibliography}{}
 \itemsep0pt
 
-\bibitem[Aki, 1957]{aki_space_1957}
-Aki, K.,  1957, Space and time spectra of stationary stochastic waves, with
-  special reference to microtremors.
-
 \bibitem[Bensen et~al., 2007]{bensen_processing_2007}
 Bensen, G.~D., M.~H. Ritzwoller, M.~P. Barmin, A.~L. Levshin, F. Lin, M.~P.
   Moschetti, N.~M. Shapiro, and Y. Yang,  2007, Processing seismic ambient
   noise data to obtain reliable broad-band surface wave dispersion
   measurements: {\bf 169}, 1239--1260.
 
+\bibitem[Boué et~al., 2013]{boue_teleseismic_2013}
+Boué, P., P. Poli, M. Campillo, H. Pedersen, X. Briand, and P. Roux,  2013,
+  Teleseismic correlations of ambient seismic noise for deep global imaging of
+  the earth:  ggt160.
+
 \bibitem[Campillo and Paul, 2003]{campillo_long-range_2003}
 Campillo, M., and A. Paul,  2003, Long-range correlations in the diffuse
   seismic coda: {\bf 299}, 547--549.
 
-\bibitem[Ekström et~al., 2009]{ekstrom_determination_2009}
-Ekström, G., G.~A. Abers, and S.~C. Webb,  2009, Determination of surface-wave
-  phase velocities across {USArray} from noise and aki's spectral formulation:
-  {\bf 36}, L18301.
+\bibitem[Forghani and Snieder, 2010]{forghani_underestimation_2010}
+Forghani, F., and R. Snieder,  2010, Underestimation of body waves and
+  feasibility of surface-wave reconstruction by seismic interferometry: {\bf
+  29}, 790--794.
 
-\bibitem[Haned et~al., 2016]{haned_global_2016}
-Haned, A., E. Stutzmann, M. Schimmel, S. Kiselev, A. Davaille, and A.
-  Yelles-Chaouche,  2016, Global tomography using seismic hum: {\bf 204},
-  1222--1236.
+\bibitem[Gerstoft et~al., 2008]{gerstoft_global_2008}
+Gerstoft, P., P.~M. Shearer, N. Harmon, and J. Zhang,  2008, Global p, {PP},
+  and {PKP} wave microseisms observed from distant storms: {\bf 35}, L23306.
 
-\bibitem[Kedar and Webb, 2005]{kedar_oceans_2005}
-Kedar, S., and F.~H. Webb,  2005, The ocean's seismic hum: {\bf 307}, 682--683.
+\bibitem[Gualtieri et~al., 2014]{gualtieri_modelling_2014}
+Gualtieri, L., E. Stutzmann, V. Farra, Y. Capdeville, M. Schimmel, F. Ardhuin,
+  and A. Morelli,  2014, Modelling the ocean site effect on seismic noise body
+  waves:  ggu042.
 
-\bibitem[Levshin et~al., 1992]{levshin_peculiarities_1992}
-Levshin, A., L. Ratnikova, and J. Berger,  1992, Peculiarities of surface-wave
-  propagation across central eurasia: {\bf 82}, 2464--2493.
+\bibitem[Hennino et~al., 2001]{hennino_observation_2001}
+Hennino, R., N. Trégourès, N.~M. Shapiro, L. Margerin, M. Campillo, B.~A. van
+  Tiggelen, and R.~L. Weaver,  2001, Observation of equipartition of seismic
+  waves: {\bf 86}, 3447--3450.
 
-\bibitem[Lin et~al., 2008]{lin_surface_2008}
-Lin, F.-C., M.~P. Moschetti, and M.~H. Ritzwoller,  2008, Surface wave
-  tomography of the western united states from ambient seismic noise: Rayleigh
-  and love wave phase velocity maps: {\bf 173}, 281--298.
+\bibitem[Larose et~al., 2008]{larose_fluctuations_2008}
+Larose, E., P. Roux, M. Campillo, and A. Derode,  2008, Fluctuations of
+  correlations and green’s function reconstruction: Role of scattering: {\bf
+  103}, 114907.
 
-\bibitem[Nishida et~al., 2009]{nishida_global_2009}
-Nishida, K., J.-P. Montagner, and H. Kawakatsu,  2009, Global surface wave
-  tomography using seismic hum: {\bf 326}, 112--112.
+\bibitem[Poli et~al., 2012a]{poli_body-wave_2012}
+Poli, P., M. Campillo, H. Pedersen, and L.~W. Group,  2012a, Body-wave imaging
+  of earth’s mantle discontinuities from ambient seismic noise: {\bf 338},
+  1063--1065.
 
-\bibitem[Rhie and Romanowicz, 2004]{rhie_excitation_2004}
-Rhie, J., and B. Romanowicz,  2004, Excitation of earth's continuous free
-  oscillations by atmosphere–ocean–seafloor coupling: {\bf 431}, 552--556.
+\bibitem[Poli et~al., 2012b]{poli_emergence_2012}
+Poli, P., H.~A. Pedersen, M. Campillo, and {the POLENET/LAPNET Working Group},
+  2012b, Emergence of body waves from cross-correlation of short period seismic
+  noise: {\bf 188}, 549--558.
 
-\bibitem[Schulte-Pelkum et~al., 2004]{schulte-pelkum_strong_2004}
-Schulte-Pelkum, V., P.~S. Earle, and F.~L. Vernon,  2004, Strong directivity of
-  ocean-generated seismic noise: {\bf 5}, Q03004.
+\bibitem[Prieto et~al., 2011]{prieto_amplitude_2011}
+Prieto, G.~A., M. Denolle, J.~F. Lawrence, and G.~C. Beroza,  2011, On
+  amplitude information carried by the ambient seismic field: {\bf 343},
+  600--614.
+
+\bibitem[Roux et~al., 2005]{roux_p-waves_2005}
+Roux, P., K.~G. Sabra, P. Gerstoft, W.~A. Kuperman, and M.~C. Fehler,  2005,
+  P-waves from cross-correlation of seismic noise: {\bf 32}, L19303.
 
 \bibitem[Shapiro and Campillo, 2004]{shapiro_emergence_2004}
 Shapiro, N.~M., and M. Campillo,  2004, Emergence of broadband rayleigh waves
   from correlations of the ambient seismic noise: {\bf 31}, L07614.
 
-\bibitem[Stehly et~al., 2006]{stehly_study_2006}
-Stehly, L., M. Campillo, and N.~M. Shapiro,  2006, A study of the seismic noise
-  from its long-range correlation properties: {\bf 111}, no. B10, B10306.
+\bibitem[Vidal et~al., 2014]{vidal_retrieval_2014}
+Vidal, C.~A., D. Draganov, J.~v.~d. Neut, G. Drijkoningen, and K. Wapenaar,
+  2014, Retrieval of reflections from ambient noise using illumination
+  diagnosis: {\bf 198}, 1572--1584.
 
 \bibitem[Wapenaar, 2004]{wapenaar_retrieving_2004}
 Wapenaar, K.,  2004, Retrieving the elastodynamic green's function of an

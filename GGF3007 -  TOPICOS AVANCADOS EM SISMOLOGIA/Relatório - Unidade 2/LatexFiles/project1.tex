@@ -1,0 +1,145 @@
+\documentclass[paper,twocolumn]{geophysics}
+%\documentclass[manuscript]{geophysics}
+%\documentclass[long]{geophysics}
+% An example of defining macros
+
+\usepackage[portuguese]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+
+
+\usepackage{amsmath}
+
+
+\newcommand{\rs}[1]{\mathstrut\mbox{\scriptsize\rm #1}}
+\newcommand{\rr}[1]{\mbox{\rm #1}}
+\usepackage{color}
+
+\begin{document}
+
+\title{{UNIDADE 02 - Ondas de Superfície (04/04/2016 - 27/04/2016)}}
+%\renewcommand{\thefootnote}{\fnsymbol{footnote}} 
+
+\address{\footnotemark[1] Universidade Federal do Rio Grande do Norte - UFRN
+Centro de Ciências Exatas e da Terra - CCET
+Departamento de Geofísica
+Campus Universitário - Lagoa Nova
+59072-970 Natal, RN
+}
+\author{Diogo Luiz de Oliveira Coelho\footnotemark[1]}
+\lefthead{Coelho, DLO}
+\righthead{UNIDADE 02 - Ondas de Superfície}
+
+%\maketitle is unneccessary
+
+\begin{abstract}
+{Esta unidade visa aprofundar no processamento dos registros de ruído sísmico para a reconstrução da EGF de onda de superfície e na análise dessas EGFs para obter as velocidades de dispersão (grupo e fase).}  
+\end{abstract}
+
+\section*{Introdução}
+
+Métodos para determinar a estrutura sísmica da Terra, em particular os métodos tomográficos, baseiam-se num princípio simples: a determinação das velocidades de propagação das ondas sísmicas e a procura de um modelo sísmico que melhor se ajuste às velocidades encontradas. A resolução dos modelos obtidos depende do tipo de onda utilizado e da geometria espacial entre a fonte e o receptor. \cite{levshin_peculiarities_1992} mostra em seu artigo que no início da segunda metade do século uma grande quantidade de investigações sismológicas foram feitas para descobrir e entender melhor estruturas profundas das crosta e da litosfera terrestre. Tais estudos eram baseados no tempo de percurso e na velocidade  da onda P nessas regiões. No entanto, a onda P é menos sensível às heterogeneidades regionais comparada a uma onda cisalhante. Logo \cite{levshin_peculiarities_1992} diz que é de suma importância conhecer a estrutura de velocidade da onda S para discernir as estruturas geotectônicas numa dada região. Com este preâmbulo, nota-se que o estudo da propagação da onda S ganhou um destaque quando se quer estudar o arcabouço geológico/geotectônico regional.
+
+A utilização das ondas de superfície para a investigação do substrato geológico vem crescendo nos ultimos anos. Com o avanaço da tecnologia, do computadores e da grandes redes sismográficas pode-se estimar, a cada dia com mais precisão, as principais estruturas geológicas regionais. É crescente a utilização da tomografia sísmica para imagear com detalhes todas essas grandes estruturas. Inicialmente os trabalhos utilizando ondas de superfície faziam uso de ondas de superfícies geradas por sismos em todo o globo, como mostra \cite{levshin_peculiarities_1992}. Porém no início dos anos 2000 descobriu-se, empiricamente, que ondas de superfície são geradas por outras fontes sísmicas que anteriormente eram consideradas fontes de ruído. Trabalhos como de \cite{campillo_long-range_2003}, \cite{shapiro_emergence_2004} e \cite{wapenaar_retrieving_2004} mostraram que essas ondas de superfície são observadas nas correlações cruzadas entre pares de estações sismográficas. Mesmo sendo recente essa descoberta, \cite{aki_space_1957} já havia proposto a medição da dispersão das ondas Rayleigh e love nas camadas mais superficiais através da correlação cruzada, como mostra \cite{ekstrom_determination_2009}.
+
+As ondas de superfície originadas pelo ruído sísmico ambiental começaram a ser utilizadas em larga escala para estudos tectônicos regionais e locais, como mostra os trabalhos de \cite{bensen_processing_2007}, \cite{lin_surface_2008} e \cite{ekstrom_determination_2009}. No entanto era essencial um estudo dessa fonte sísmica para entender como são gerados esses microssismos e como esta fonte se comporta em relação ao tempo. Os trabalhos de \cite{schulte-pelkum_strong_2004}, \cite{rhie_excitation_2004}, \cite{kedar_oceans_2005} e  \cite{stehly_study_2006} mostram que esse tipo de sinal é gerado pela interação entre o oceano e a atmosfera. Além de mostrar a sazonalidade desse tipo de sinal e das frequências prepoderantes desses microssismos, tipicamente em 0.07–0.1 Hz (10–14 s) e 0.14–0.2 Hz (5–7 s). Além desses duas faixas de frequências, também é notável um sinal oriundo desses microssismos de baixa frequência, porém com uma larga banda de frequências (30–250 s). Tal sinal é conhecido como "hum" da Terra, e atualmente já existem trabalhos que utilizam este tipo de sinal para fazer a tomografia de camadas mais profundas da Terra, como os trabalho de  \cite{nishida_global_2009} e  \cite{haned_global_2016}.
+
+\section*{Ruído Sísmico Ambiental}
+
+Antes de explicar o processamento dos dados é necessário entender o que seria o ruído sísmico ambiental. Quais são as fontes ou fonte, como é gerado o sinal e quais são as características deste sinal. A fonte, ou fontes, desse ruído sísmico ambiental, segundo \cite{rhie_excitation_2004}, excitam preferencialmente o modo fundamental, portanto estas devem ser próximas da superfície. \cite{stehly_study_2006} mostra que o ruído sísmico é composto principalmente por ondas de superfície, e as principais fontes são creditadas a pertubações de pressão na atmosfera e no oceano. Isto também é ratificado por \cite{rhie_excitation_2004}, \cite{schulte-pelkum_strong_2004} e \cite{kedar_oceans_2005} devido a similaridade da forma do espectro da pressão de fundo oceânico e do espectro do movimento da partícula ruído. Outra razão para que a fonte desse ruído seja por mecanismos envolvendo massas ocêanicas e atmosféricas é a sazonalidade e direcionalidade do sinal, como discutido em  \cite{rhie_excitation_2004}, \cite{schulte-pelkum_strong_2004} e \cite{stehly_study_2006}.
+
+O trabalho de \cite{rhie_excitation_2004} mostra que os oceanos tem um papel principal na geração desses microssismos. Este artigo discute que uma parte de energia contida nas ondas oceânicas é convertida em energia elástica através de processos não-lineares. As ondas geradas por tempestades, ventos e efeitos gravitacionais ordinários, chamadas de ondas de infragravidade, são as principais candidatas a fonte do ruído sísmico observado. \cite{rhie_excitation_2004} traz a tona que o formato côncavo da costa é essencial para gerar esse ruído sísmico em águas rasas, relacionando também o formato do assoalho oceânico na região e a força/persistência das tempestades marinhas. \cite{schulte-pelkum_strong_2004} e \cite{stehly_study_2006} fizeram um estudos detalhados sobre a sazonalidade e a dependência azimutal do ruído sísmico ambiental. A sazonalidade e direcionalidade do ruído é atribuída a sua fonte principal, que é a interação oceano-costa. Estes trabalhos expuseram com exímia clareza as principais características do ruído sísmico ambiental, relacionando os registros das estações sismográficas com dados oriundos de registros marinhos, no caso de \cite{schulte-pelkum_strong_2004}, e relacionado os registro sísmicos com os padrões climáticos (estações do ano), no caso de \cite{stehly_study_2006}. 
+
+
+\cite{schulte-pelkum_strong_2004}, \cite{kedar_oceans_2005} e \cite{stehly_study_2006} dissertam que os mecanismos de geração de ruído sísmico não são os mesmos em diferentes bandas de períodos. Em períodos curtos (<20 s) existem dois picos fortes de ruído sísmico, tais mecanismos estão relacionados diretamente com a interação das ondas com a costa ou com a plataforma continental. Esta interação costa-ondas oceânica gera dois tipos de sinais de período curto, os microssismos primários e os microssismos secundários.  Os microssismos primários similares a ondulações principais e possui uma banda de período entre 10 – 20 segundos. Já os microssismos secundários são originados de interações não-lineares entre ondulações diretas e refletidas na costa com uma banda de período 5 - 10 segundos. \cite{stehly_study_2006} mostra que o ruído sísmico de fundo de alta frequência, microssismo secundário, é gerado pela interação do oceano com a costa, este tipo de fonte não sofre grandes variações por efeitos sazonais, diferentemente do microssismo primário que exibe uma variação sazonal forte.
+
+
+\section*{Metodologia}
+
+A metodologia aplicada na reconstrução da Função de Green Empírica pela correlação cruzada do ruído sísmico ambiental foi feita de maneira difusa até o trabalho de \cite{bensen_processing_2007} ser publicado. Tal trabalho foi manufaturado por grupo de precursores na utilização do ruído sísmico ambiental. Este trabalho discute ponto a ponto todo o processamento de dados, desde a preparação dos registros sísmicos até nuances em relação às normalizações e filtragens do registro sísmico. Outro trabalho que foi discutido em sala de aula, \cite{lin_surface_2008}, aprensenta algo derivado de \cite{bensen_processing_2007}, pois o autor cita que a sequência metodológica é a mesma. Entretanto pequenas alterações foram feitas pois este trabalho visando calcular as velocidades de fase. Uma metodologia que realmente difere da proposta por \cite{bensen_processing_2007} é o método de \cite{ekstrom_determination_2009} que utiliza formulações prospostos por \cite{aki_space_1957} para calcular as velocidades de fase entre um par de estações.
+
+A seguir serão discutidos os tópicos sumarizados por \cite{bensen_processing_2007}. Tais tópicos são: processamento de cada estação separadamente, correlação cruzada e empilhamento dos dados de cada par de estação com registros com vinte e quatro horas de duração, medição da dispersão das ondas de Superfície, aplicação de medidas de controle qualitativo e, por fim, cálculos da incertezas e seleção das medidas confiáveis.  Já \cite{ekstrom_determination_2009} separa o seu processamento em  normalização em tempo-frequência de sismogramas de nove horas de duração, cálculo do cruzamento espectral entre os pares de estações, empilhamento do cruzamento espectral para o período de observação, identificação das intersecções no eixo x na parte real do espectro e interpretação das intersecções em termos de velocidade de fase. As divergências e diferenças entre as metodologias serão discutidas em cada tópico. Sendo estes tópicos apontados por \cite{bensen_processing_2007}.
+
+\subsection*{Preparação dos dados para cada estações}
+
+\cite{bensen_processing_2007} cita que a primeira fase do processamento  é feita para preparar os dados da forma da onda de cada estação individualmente. Faz-se isso para acentuar o ruído ambiental de banda larga e para remover os sinais de terremoto e de irregularidades instrumentais que tendem a ocultar/mascarar o ruído sísmico ambiental. Para isso remove-se a média, tendência e resposta instrumental de cada estação. A janela temporal  utilizada por \cite{bensen_processing_2007} para filtrar os dados em seu trabalho é de 7 a 150 segundos, já \cite{lin_surface_2008} utiliza uma janela temporal de 5 a 100 s, cujo valor é o mesmo de \cite{ekstrom_determination_2009}.
+
+Segundo \cite{bensen_processing_2007}, séries temporais diárias com menos que 80\% do registro devem ser rejeitadas, mas isso varia de acordo com a discretização de cada trabalho. Com o propósito de usar o mínimo possível para corrigir essas lacunas no registros muito autores adotam valores altos para a porcentagem de lacunas nos dados. O problema de ter uma margem muito grande é que para sanar este problema usa-se interpolações, preenchimento com uma certa média do sinal, dentre outras medidas. Para preencher as lacunas nos registros pode-se alterar demasiadamente o sinal, por isso é necessário tomar um cuidado na escolha das séries temporais para o processamento.
+
+Para reduzir na correlação cruzada os efeitos de terremotos, irregularidades instrumentais e fontes de ruídos não-estacionários próximos á estação \cite{bensen_processing_2007} faz uso da "normalização temporal" ou "normalização no domínio do tempo". \cite{bensen_processing_2007} faz uma grande explanação sobre este tema e compara cinco métodos diferentes para a normalização temporal. Terremotos geram grandes impecílios na automatização do processamento, pois eles ocorrem irregularmente e apenas grandes terremotos são encontrados nos catálogos globais. Então a remoção dos sinais dos terremotos tem que ser adaptativa aos dados. Muitos estudos aplicam a técnica da "normalização 1-bit" em que somente o sinal da série temporal é retido (+1 ou -1) e a amplitude é completamente ignorada. A "normalização da média absoluta móvel" produz uma razão sinal-ruído maior que a normalização 1-bit no conjunto de dados. A "normalização da média absoluta móvel" é calculada na janela de terremotos (15 a 50 segundos) para isolar os terremotos que não são visíveis no sinal bruto. No entanto, vale lembrar que este passo não possui uma resposta definida, pois em vários trabalhos normalizações como 1-bit obtiveram o mesmo sucesso que a média móvel. \cite{lin_surface_2008} faz a normalização temporal das componentes E e N juntas, filtrando (15 - 50 s) as componentes conjuntamente. É computada uma média absoluta a cada 128 segundos nos registros, então compara-se os valores da componente E e N. O maior valor é utilizado para ponderar inversamente aquele ponto no tempo. No fim utiliza-se esse peso para filtrar o sinal entre 5 e 100 segundos. 
+
+O Ruído Sísmico Ambiental não é branco no domínio da frequência, ou seja, existem frequências que se destacam. \cite{bensen_processing_2007} cita que a normalização espectral atua para alargar a banda do sinal nas correlações cruzadas e atua contra a degradação causada por fontes persistentes, como os microssismos primário e secundário. Portanto, utiliza-se a normalização espectral nos dados brutos para tentar diminuir a esse efeito. \cite{ekstrom_determination_2009} usa uma maneira diferente de normalizar os sismogramas. Inicialmente corta-se o sismograma com nove horas de duração e processa o dado com um combo de filtros sobreposicionado de largura de 1-mHz. O sinal resultante é dividido pelo seus envelopes analíticos no domínio do tempo, por fim esses sinais são somados para formar um sismograma normalizado no tempo-frequência.
+
+\subsection*{Correlação Cruzada e Empilhamento}
+
+Após preparar as séries temporais diárias, a próxima fase é computar as correlações cruzadas entre as componentes radial, vertical e transversal, e posteriormente o empilhamento, de acordo com o objetivo de cada trabalho. Pois se for para o cálculo das velocidades para ondas Rayleigh, só é necessário a correlação cruzada entre as componentes verticas, se for para ondas Love, somente as componentes transversais. \cite{bensen_processing_2007} mostra que mesmo com distâncias entre as estações sendo muito longas ou curtas deve-se fazer a correlação entre todas os pares de estações possíveis. No futuro deve-se fazer a seleção das medidas aceitáveis. O número total de pares de estações possíveis é dado por $n(n-1)/2$, onde $n$ é o número de estações. \cite{lin_surface_2008} mostra uma correlação entre as componentes E–E, E–N, N–N, N–E, pois os dados não foram rotacionados previamente, porém o autor mostra esse pré-processamento não altera o operador de rotação, citando a característica cumutativa do mesmo.
+
+A correlação cruzada das séries temporais, com tamanho de 1 dia no caso de  \cite{bensen_processing_2007}, é feita no domínio do tempo e empilha-se as correlações cruzadas diárias para corresponder a uma longa série temporal. O resultado da correlação cruzada são funções do tempo com dois lados, positivo e negativo, com coordenadas em função do tempo, isto é, correlação dos atrasos positivo e negativo. O tamanho da série temporal irá depender do grupo de velocidade das ondas e da distância entre as estações. Somente após a computação da correlações cruzadas entre os pares de estações que \cite{lin_surface_2008} rotaciona as componentes leste-E e norte-N para transversal-T e radial-R. Segundo o autor fazendo essa opção de rotacionar as componentes tardiamente economiza-se tempo de processamento e espaço físico, e não há interferência no resultado final.  \cite{ekstrom_determination_2009} faz a correleção cruzada dos sinais após transformar os sismogramas para o domínio da frequência. A técnica utilizada para isso é a multiplicação espectral. 
+
+A parte positiva da correlação cruzada é chamda de sinal "causal" e a parte negativa de "acausal". \cite{bensen_processing_2007} mostra que essas formas de onda representam ondas viajando em direção opostas entre o par de estações. Se as fontes do ruído ambiental são distribuídas homegeneamente em todas as direções, a parte causal e acausal devem ser idênticas. No entanto, se assimetrias consideráveis na amplitude e no espectro são observadas, existe diferenças nas fontes e na distribuição azimutal das mesmas, como é mostrado por \cite{schulte-pelkum_strong_2004} e \cite{stehly_study_2006}. \cite{bensen_processing_2007} mostra que somando os dois lados do sinal, causal e acausal, gerando um sinal único pode-se aumentar a razão sinal-ruído, o sinal resultante é chamado de sinal simétrico.
+
+O empilhamento das correlações cruzadas entre os pares de estações é feito para aumentar a razão sinal-ruído. Pois quanto maior o números de correlações, maior a quantidade de sinal coerente está se aglutinando. O empilhamento é feito linearmente ponto a ponto, pois todos os registros tem o mesmo tamanho.  Com isso o resultado  final é o sinal de uma onda de superfície emergindo das correlações cruzadas nas séries temporais, como mostra \cite{bensen_processing_2007} e \cite{lin_surface_2008}, e em espectros, como visto no trabalho de \cite{ekstrom_determination_2009}. Para as correçãoes entre as componentes Z-Z tem-se o sinal da onda Rayleigh e para a componente T-T o sinal da onda Love. 
+
+\subsection*{Medidas da Dispersão}
+
+Após o cálculo e empilhamento das correlações cruzadas diárias, a forma de onda resultante é a função de Green estimada, \cite{campillo_long-range_2003}, \cite{shapiro_emergence_2004} e, principalmente, \cite{wapenaar_retrieving_2004} e \cite{bensen_processing_2007}, \cite{wapenaar_tutorial_2010}. \cite{lin_surface_2008} enfatiza que a única diferença entre sismologia do ruído ambiental e a sismologia baseada em terremotos é o método utilizado para se obter as formas de ondas utilizadas nas análises. Os mesmo termos que são utilizados na análise de sismologia de terremotos tradicional são utilizados para analisar e descrever a Função de Green estimada pelo correlação cruzada do ruído sísmico, isso pode ser visto quando compara-se o artigo de \cite{levshin_peculiarities_1992} com \cite{bensen_processing_2007}. Logo a correlação cruzada do ruído sísmico ambiental tem o mesmo sentido nesse contexto e as mesmas etapas de processamento são aplicadas ao sinal resultante da correlação.
+
+Com a função de Green pode-se medir a velocidade de grupo e de fase pela análise frequência-tempo (FTAN), como mostra \cite{levshin_peculiarities_1992}. \cite{bensen_processing_2007} diz que embora FTAN seja aplicada amplamente para fazer medidas das velocidades de grupo, curvas da velcidade de fase também são medidas naturalmente no processo. \cite{ekstrom_determination_2009} possui uma nova estratégia para calcular as velocidades de fase, a formulação espectral de Aki (\cite{aki_space_1957}).
+
+\cite{bensen_processing_2007} exemplifica o cálculo da Dispersão das ondas de superfície no domínio da frequência por:
+
+\begin{eqnarray}
+S_{a}(\omega) = S(\omega)(1 + sgn(\omega))
+\end{eqnarray}
+
+onde $sgn(\omega)$ é a função sinal, $S(\omega)$ é a transformada de Fourier da forma de onda $s(t)$, também chamado "sinal analítico".
+
+A transformada inversa é expressa no domínio do temppo por:
+
+\begin{eqnarray}
+S_{a}(t) = s(t) + iH(t) = \left | A(t) \right |exp(i\Phi(t))
+\end{eqnarray}
+
+onde $H(t)$ é a transformada de Hilbert de $s(t)$. Para construir a função tempo-frequência, o sinal analítico é submetido a um conjunto de filtros Gaussianos passa-banda estreitos com frequências centrais $\omega _{0}$:
+
+\begin{eqnarray}
+S_{a}(\omega,\omega _{0}) = S(\omega)(1 + sgn(\omega))G(\omega - \omega _{0})
+\\
+G(\omega - \omega _{0}) = e^{-\alpha(\frac{\omega - \omega _{0}}{\omega _{0}}^{2})}
+\end{eqnarray}
+
+Após a transformação inversa cada função passa-banda é retornada ao domínio do tempo produzindo uma função modulada 2-D, $\left | A(t,\omega _{0}) \right |$, e uma função da fase, $ \Phi(t,\omega _{0}) $. Onde $\alpha$ é o parâmetro que define as resoluções complementares no domínio da frequência e do tempo. O tempo de chegada de grupo, $\tau (\omega _{0})$, como uma função da frequência central do filtro Gaussiano é determinado do pico da função modulada de modo que a velocidade de grupo é $U(\omega _{0})=r/\tau (\omega _{0})$, onde r é a distância entre as estações. \cite{bensen_processing_2007} substitui $\omega _{0}$ pela "frequência instantânea". A frequência instantânea é definida como taxa de variação da fase do sinal analítico num tempo $\tau$. \cite{bensen_processing_2007} declara que esta correção é significativa quando o espectro da forma de onda apresenta picos. Devido ao vazamento espectral as frequências centrais dos filtros de bandas estreitas podem não representar fielmente o conteúdo da frequência de saída dos filtros.
+
+A análise frequência-tempo é descrita em duas etapas por \cite{levshin_peculiarities_1992} e \cite{bensen_processing_2007}. A primeira etapa (FTAN bruta), filtros Gaussianos passa-banda estreitos são aplicados na representação analítica da correlação cruzada. Se o período central do filtro é $T$, o tempo em que a amplitude do sinal filtrado chega no máximo corresponde ao tempo de viagem, equivalente a velocidade de grupo $v_{g}$, da onda Rayleigh num período $T$. No entanto, deve-se garantir que a curva de dispersão, $v_{g}(T)$, é uma função suave do período, escapando de saltos causados por máximos espúrios. Essa FTAN bruta é realçada com o uso de um filtro '\textit{phase-matched}'. O termo de correção $\psi(\omega)$ é aplicado na fase dos sinal analítico no domínio da frequência. $\psi(\omega)$ é avaliado graças à curva de dispersão bruta $v_{g}(T)$ como:
+
+\begin{eqnarray}
+\psi(\omega) = \Delta \int_{\omega_{0}}^{\omega} \frac{{d\omega}'}{v_{g}({\omega}')}
+\end{eqnarray}
+
+onde $\Delta$ é a distância entre as estações e $\omega = \frac{T}{2\pi}$. Uma curva de dispersão filtrada pode então ser medida repetindo o primeiro passo com o sinal filtrado pelo termo de correção. \cite{levshin_peculiarities_1992} discorre que o '\textit{phase-matched}' aprimora as estimativas das velocidades de grupo e de fase através da supressão de ruído e de outros sinais espúrios.
+
+Para o cálculo das velocidades de fase, tanto \cite{bensen_processing_2007} quanto \cite{lin_surface_2008} utilizam a mesma técnica, e ambos mostram que existe uma ambiguidade no cálculo da velocidade de fase das ondas de superfície. Tanto que \cite{lin_surface_2008} desenvolve o método das três estações para dar conscistência às medidas da velocidade de fase calculadas. Entretanto, \cite{ekstrom_determination_2009} surge com essa "nova" metodologia para calcular as velocidades de fase das ondas de superfície. Ao invés de calcular as correlações cruzadas e filtrar essse sinal com filtros gaussianos estreitos, \cite{ekstrom_determination_2009} computa a correlaçao cruzada dos espectros do sinal através da multiplicação espectral. Com esses resultados observa-se as intersecções no eixo horizontal pela componente imaginária do espectro. \cite{ekstrom_determination_2009} segue a formulação de \cite{aki_space_1957}, que diz que a velocidade de fase pode ser determinada pela razão entre a frequência de cada interseção no eixo horizontal do espectro pela intersecção no eixo horizontal de uma função de Bessel de primeira classe. Porém até mesmo esse tipo de técnica ainda produz certa incerteza devido a razão sinal-ruído, pois dificulta a localização das intersecções no eixo horizontal. Para diminuir essa incerteza \cite{ekstrom_determination_2009} discorre sobre a necessidade de interpretar as velocidades de fase geradas pela técnica.
+
+\subsection*{Controle de Qualidade das Medidas}
+
+Como a quantidade de caminhos entre as estações é numerosa, o controle de qualidade das correlações cruzadas deverá ser aplicado automaticamente, assim haverá o mínimo de interação humana, logo medidas errôneas serão minimizadas. \cite{bensen_processing_2007} mostra que medidas de dispersão confiáveis devem passar pelo seguinte critério: $\Delta > 3\lambda = 3c\tau$ ou $\tau < \Delta/3c$, sendo $\tau$ o período, $c$ o comprimento de onda, $\Delta$ a distância entre as estações em quilômetros e $\lambda$ o comprimento de onda. Sendo a velocidade de fase máxima ($c$) $\sim 4 km/s$, o período máximo de trabalho é estabelecido por $\tau_{max} = \Delta/12$. \cite{bensen_processing_2007} observa uma degradação das medidas de dispersão em períodos maiores que $\tau_{max}$. 
+
+Para o controle de qualidade dos dados deve-se identificar e rejeitar medidas ruins. Junto com os critérios estabelecidos por \cite{bensen_processing_2007}, anteriormente, muitos autores utilizam a razão sinal-ruído (SNR), a razão entre o valor máximo absoluto na janela de sinal e o desvio padrão da janela de ruído. Estas janelas são estabelecidas de acordo com a distância entre as estações ($\Delta$). A janela de sinal é demarcada entre os tempos de chegada correspondentes as velocidades das ondas de superfície A janela de ruído é demarcada muito tempo após a janela de sinal, isso para garantir que seja apenas ruído.  \cite{lin_surface_2008} utiliza o critério para um medida seja aceitável ela deve possuir um SNR maior que 17 em todas as correlações entre componentes, já  \cite{bensen_processing_2007} utiliza um SNR maior que 10 para aceitar as medidas.
+
+Outro critério estabelecido por \cite{bensen_processing_2007} é avaliar a repetibilidade temporal das medidas de dispersão. As fontes de ruído ambiental mudam sazonalmente e fornecem diferentes condições para as medições. Dadas certas condições de mudança, a repetibilidade da medição é um indicador significativo de confiabilidade. Neste procedimento calculou-se o desvio padrão para um conjunto de velocidades sazonais, estas devem ter SNR maior que 7 e no mínimo 3 dessas velocidades disponíveis. Se não for satisfeito esse critério o desvio padrão é considerado indefinido.
+
+\section*{Resultados e Discussões}
+
+A reconstrução da função de Green empírica de uma onda de superfície requer um certo cuidado no processamento dos registros sísmicos, como mostra os trabalhos de \cite{bensen_processing_2007}, \cite{lin_surface_2008} e \cite{ekstrom_determination_2009}. Mas não só isso, também deve-se atentar para a fonte deste ruído. Os trabalho de \cite{rhie_excitation_2004}, \cite{schulte-pelkum_strong_2004} e \cite{kedar_oceans_2005} descrevem a sazonalidade e a direcionabilidade desta fonte, logo são características importante na hora de fazer o tratamento adequado dos dados.
+
+Várias formas de calcular as velocidades de grupo e fase foram apresentadas nessa disciplina, como os trabalhos de \cite{levshin_peculiarities_1992}, \cite{bensen_processing_2007}, \cite{lin_surface_2008} e \cite{ekstrom_determination_2009}, porém foi nítido que o cálculo da velocidade de grupo é muito mais atraente pelo ponto de vista da facilidade computacional e quando visto da quantidade pequena de incertezas nas medidas. Porém metodologias tentaram diminuir as incertezas associadas às medidas da velocidade de fase das ondas de superfície, como os trabalhos de \cite{lin_surface_2008} e \cite{ekstrom_determination_2009}.  
+
+\section*{Conclusões}
+
+Com o fim desta unidade pode-se debruçar sobre cada etapa do processamento dos registros de ruído sísmico para a reconstrução da EGF de onda de superfície. A discussão desses processos foi importante para amadurecer a análise dessas EGFs para obter as velocidades de dispersão (grupo e fase). Com isso pode-se atestar os limites desse tipo de metodologia, e por conseguinte, enriquecer o debate sobre a confiabilidade dos dados gerados.
+
+\bibliographystyle{seg.bst}
+\bibliography{References.bib}
+    
+\end{document}

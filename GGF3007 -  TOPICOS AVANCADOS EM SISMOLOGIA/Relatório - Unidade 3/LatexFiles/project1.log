@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.5.18)  23 MAY 2016 16:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.5.18)  13 JUN 2016 08:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -536,48 +536,28 @@ Overfull \hbox (8.29921pt too wide) in paragraph at lines 38--39
 [1
 
 
-] [2] [3]
-Overfull \hbox (3.88379pt too wide) in paragraph at lines 98--99
-[]\T1/cmr/m/n/10 A trans-for-mada in-versa é ex-pressa no do-mí-nio do temppo
+]
+Overfull \hbox (4.85442pt too wide) in paragraph at lines 55--56
+\T1/cmr/m/n/10 bes-ti-ma-das nos re-gis-tros do ruído sís-mico am-bi-en-tal qua
+ndo
  []
 
 
-Overfull \hbox (1.34029pt too wide) in paragraph at lines 114--115
-\T1/cmr/m/n/10 meira etapa (FTAN bruta), fil-tros Gaus-si-a-nos passa-banda
+Overfull \hbox (0.7179pt too wide) in paragraph at lines 61--62
+[]\T1/cmr/m/n/10 O pri-meiro tra-ba-lho a uti-li-zar a cor-re-la-ção cru-zada r
+uído
  []
 
-
-Overfull \hbox (1.02194pt too wide) in paragraph at lines 120--121
-\T1/cmr/m/it/10 matched\T1/cmr/m/n/10 ' apri-mora as es-ti-ma-ti-vas das ve-lo-
-ci-da-des de grupo
- []
-
-[4]
-Overfull \hbox (0.71654pt too wide) in paragraph at lines 134--135
-\T1/cmr/m/n/10 des-cre-vem a sa-zo-na-li-dade e a di-re-ci-o-na-bi-li-dade dest
-a fonte,
- []
-
-(./project1.bbl [5]
-Underfull \hbox (badness 5592) in paragraph at lines 45--47
-[]\T1/cmr/m/n/10 Rhie, J., and B. Ro-ma-nowicz, 2004, Ex-ci-ta-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
-\T1/cmr/m/n/10 of earth's con-ti-nu-ous free os-cil-la-ti-ons by at-
- []
-
-) [6
+[2] [3] (./project1.bbl [4]) [5
 
 ] (./project1.aux) ) 
 Here is how much of TeX's memory you used:
- 3102 strings out of 493030
- 36920 string characters out of 6136260
- 110318 words of memory out of 5000000
- 6600 multiletter control sequences out of 15000+600000
+ 3088 strings out of 493030
+ 36799 string characters out of 6136260
+ 108318 words of memory out of 5000000
+ 6586 multiletter control sequences out of 15000+600000
  13574 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,8n,28p,1742b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,7n,28p,1653b,277s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on project1.dvi (6 pages, 43968 bytes).
+Output written on project1.dvi (5 pages, 33480 bytes).
