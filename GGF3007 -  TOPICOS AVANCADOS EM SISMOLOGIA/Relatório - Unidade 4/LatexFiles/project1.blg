@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: project1.aux
+The style file: seg.bst.bst
+Database file #1: References.bib.bib
+Warning--empty journal in bensen_processing_2007
+Warning--empty journal in boullenger_studying_2015
+Warning--empty journal in bromirski_ocean_1999
+Warning--empty journal in campillo_long-range_2003
+Warning--empty journal in gerstoft_global_2008
+Warning--empty journal in li_seismic_2006
+Warning--empty journal in nakata_damage_2015
+Warning--empty journal in poli_emergence_2012
+Warning--empty journal in prieto_impulse_2010
+Warning--empty journal in roux_p-waves_2005
+Warning--empty journal in shapiro_emergence_2004
+Warning--empty journal in snieder_extracting_2006
+Warning--empty journal in vidal_retrieval_2014
+Warning--empty journal in wapenaar_tutorial_2010
+Warning--empty journal in zaccarelli_variations_2011
+You've used 15 entries,
+            2639 wiz_defined-function locations,
+            815 strings with 10126 characters,
+and the built_in function-call counts, 7079 in all, are:
+= -- 745
+> -- 355
+< -- 3
++ -- 124
+- -- 124
+* -- 702
+:= -- 1205
+add.period$ -- 15
+call.type$ -- 15
+change.case$ -- 137
+chr.to.int$ -- 15
+cite$ -- 30
+duplicate$ -- 209
+empty$ -- 456
+format.name$ -- 145
+if$ -- 1400
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 15
+newline$ -- 49
+num.names$ -- 45
+pop$ -- 119
+preamble$ -- 1
+purify$ -- 137
+quote$ -- 0
+skip$ -- 152
+stack$ -- 0
+substring$ -- 553
+swap$ -- 15
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 90
+warning$ -- 15
+while$ -- 54
+width$ -- 0
+write$ -- 153
+(There were 15 warnings)

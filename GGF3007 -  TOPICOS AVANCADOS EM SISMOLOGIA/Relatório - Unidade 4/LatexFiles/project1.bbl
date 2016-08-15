@@ -1,0 +1,77 @@
+\begin{thebibliography}{}
+\itemsep0pt
+
+\bibitem[Bensen et~al., 2007]{bensen_processing_2007}
+Bensen, G.~D., M.~H. Ritzwoller, M.~P. Barmin, A.~L. Levshin, F. Lin, M.~P.
+  Moschetti, N.~M. Shapiro, and Y. Yang,  2007, Processing seismic ambient
+  noise data to obtain reliable broad-band surface wave dispersion
+  measurements: {\bf 169}, 1239--1260.
+
+\bibitem[Boullenger et~al., 2015]{boullenger_studying_2015}
+Boullenger, B., A. Verdel, B. Paap, J. Thorbecke, and D. Draganov,  2015,
+  Studying {CO}2 storage with ambient-noise seismic interferometry: A combined
+  numerical feasibility study and field-data example for ketzin, germany: {\bf
+  80}, Q1--Q13.
+
+\bibitem[Bromirski et~al., 1999]{bromirski_ocean_1999}
+Bromirski, P.~D., R.~E. Flick, and N. Graham,  1999, Ocean wave height
+  determined from inland seismometer data: Implications for investigating wave
+  climate changes in the {NE} pacific: {\bf 104}, no. C9, 20753--20766.
+
+\bibitem[Campillo and Paul, 2003]{campillo_long-range_2003}
+Campillo, M., and A. Paul,  2003, Long-range correlations in the diffuse
+  seismic coda: {\bf 299}, 547--549.
+
+\bibitem[Gerstoft et~al., 2008]{gerstoft_global_2008}
+Gerstoft, P., P.~M. Shearer, N. Harmon, and J. Zhang,  2008, Global p, {PP},
+  and {PKP} wave microseisms observed from distant storms: {\bf 35}, L23306.
+
+\bibitem[Li et~al., 2006]{li_seismic_2006}
+Li, Y.-G., P. Chen, E. Cochran, J. Vidale, and T. Burdette,  2006, Seismic
+  evidence for rock damage and healing on the san andreas fault associated with
+  the 2004 m 6.0 parkfield earthquake: {\bf 96}.
+
+\bibitem[Nakata et~al., 2015]{nakata_damage_2015}
+Nakata, N., W. Tanaka, and Y. Oda,  2015, Damage detection of a building caused
+  by the 2011 tohokuoki earthquake with seismic interferometry: {\bf 105},
+  2411--2419.
+
+\bibitem[Poli et~al., 2012]{poli_emergence_2012}
+Poli, P., H.~A. Pedersen, M. Campillo, and {the POLENET/LAPNET Working Group},
+  2012, Emergence of body waves from cross-correlation of short period seismic
+  noise: {\bf 188}, 549--558.
+
+\bibitem[Prieto et~al., 2010]{prieto_impulse_2010}
+Prieto, G.~A., J.~F. Lawrence, A.~I. Chung, and M.~D. Kohler,  2010, Impulse
+  response of civil structures from ambient noise analysis: {\bf 100},
+  2322--2328.
+
+\bibitem[Roux et~al., 2005]{roux_p-waves_2005}
+Roux, P., K.~G. Sabra, P. Gerstoft, W.~A. Kuperman, and M.~C. Fehler,  2005,
+  P-waves from cross-correlation of seismic noise: {\bf 32}, L19303.
+
+\bibitem[Shapiro and Campillo, 2004]{shapiro_emergence_2004}
+Shapiro, N.~M., and M. Campillo,  2004, Emergence of broadband rayleigh waves
+  from correlations of the ambient seismic noise: {\bf 31}, L07614.
+
+\bibitem[Snieder and Safak, 2006]{snieder_extracting_2006}
+Snieder, R., and E. Safak,  2006, Extracting the building response using
+  seismic interferometry: Theory and application to the millikan library in
+  pasadena, california: {\bf 96}, 586--598.
+
+\bibitem[Vidal et~al., 2014]{vidal_retrieval_2014}
+Vidal, C.~A., D. Draganov, J.~v.~d. Neut, G. Drijkoningen, and K. Wapenaar,
+  2014, Retrieval of reflections from ambient noise using illumination
+  diagnosis: {\bf 198}, 1572--1584.
+
+\bibitem[Wapenaar et~al., 2010]{wapenaar_tutorial_2010}
+Wapenaar, K., D. Draganov, R. Snieder, X. Campman, and A. Verdel,  2010,
+  Tutorial on seismic interferometry: Part 1 — basic principles and
+  applications: {\bf 75}, 75A195--75A209.
+
+\bibitem[Zaccarelli et~al., 2011]{zaccarelli_variations_2011}
+Zaccarelli, L., N.~M. Shapiro, L. Faenza, G. Soldati, and A. Michelini,  2011,
+  Variations of crustal elastic properties during the 2009 l'aquila earthquake
+  inferred from cross-correlations of ambient seismic noise: {\bf 38}, L24304.
+
+\end{thebibliography}

@@ -1,0 +1,158 @@
+\documentclass[paper,twocolumn]{geophysics}
+%\documentclass[manuscript]{geophysics}
+%\documentclass[long]{geophysics}
+% An example of defining macros
+
+\usepackage[portuguese]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+
+
+\usepackage{amsmath}
+
+
+\newcommand{\rs}[1]{\mathstrut\mbox{\scriptsize\rm #1}}
+\newcommand{\rr}[1]{\mbox{\rm #1}}
+\usepackage{color}
+
+\begin{document}
+
+\title{{UNIDADE 04 - Outras Aplicações (23/05/2016 - 15/06/2016)}}
+%\renewcommand{\thefootnote}{\fnsymbol{footnote}} 
+
+\address{\footnotemark[1] Universidade Federal do Rio Grande do Norte - UFRN
+Centro de Ciências Exatas e da Terra - CCET
+Departamento de Geofísica
+Campus Universitário - Lagoa Nova
+59072-970 Natal, RN
+}
+\author{Diogo Luiz de Oliveira Coelho\footnotemark[1]}
+\lefthead{Coelho, DLO}
+\righthead{UNIDADE 04 - Outras Aplicações}
+
+%\maketitle is unneccessary
+
+\begin{abstract}
+{Esta unidade visa aprofundar em aplicações de técnicas de interferometria no geral, por exemplo, no monitoramento de tempestades, variações temporais de meios de propagação e monitoramento de prédios.}  
+\end{abstract}
+
+\section*{Introdução}
+
+\cite{wapenaar_tutorial_2010} e \cite{boullenger_studying_2015} definem interferometria sísmica de Ruído Sísmico Ambiental como sendo o processo para recuperar a resposta sísmica entre um par de sensores através da correlação cruzada dos registros sísmicos observados, fazendo isso, uma estação é considerada fonte virtual do sinal em relação a outra estação do par. A interferometria sísmica vem ganhando notoriedade por ter uma vasta aplicabilidade e por não depender de grandes terremotos ou explosivos como fonte. Além de conseguir atuar tanto em escala global quanto local. A definição de ruído sísmico ambiental sugiu com os trabalhos de \cite{campillo_long-range_2003} e \cite{shapiro_emergence_2004}, porém apenas com a compilação feita por \cite{wapenaar_tutorial_2010} que a técnica foi melhor apresentada e exemplificada. Com isso pôde-se replicar a técnica em larga escala em diferente áreas ao redor do mundo, como mostram os trabalhos estudados nesta unidade \cite{zaccarelli_variations_2011}, \cite{boullenger_studying_2015} e \cite{nakata_damage_2015}. No entanto uma década antes da publicação deste trabalho existiam trabalhos que utilizavam de microssismos, que posteiormente seriam chamados de ruído sísmico ambiental, para o monitoramento de algumas mudanças ambientais, como mostrado por \cite{bromirski_ocean_1999} no estudo das variação da alturas das ondas do oceano. 
+
+A variação das propriedades elásticas do meio é uma questão de suma importância, tanto em escala local (atividades exploratórias) quanto em escala regional (atividades acadêmicas). Monitorar essas variações dependem ou de terremotos, em escalas regionais, ou de dinheiro para fazer novas aquisições, em pequenas áreas de exploração. Porém com a introdução do ruído sísmico ambiental, pode-se monitor essa variações das propriedades elásticas do meio com um custo reduzido, comparado às aquisições exploratórias, e com uma frequência maior, comparado a baixa frequência em que grandes sismos ocorrem. Como a fonte do ruído possui uma frequência maior que os terremotos, é possível monitorar como as propriedades do meio variam em função de algum evento natural ou antrópico, como mostram os trabalhos de \cite{boullenger_studying_2015}, para investigar reservatórios após a inserçao de $CO_{2}$, e os trabalhos de \cite{prieto_impulse_2010} e \cite{nakata_damage_2015}, para monitorar a estrutura de edifícios após grandes terremotos.
+
+Os trabalhos apresentados utilizam tanto ondas de superfície quanto ondas de corpo, assim como a resposta da onda direta quanto a reposta da reflexão. Cada um desses trabalhos apresenta uma prática diferente, e por conseguinte uma metodologia  diferenciada na abordagem do problema estudado. Por exemplo, os trabalhos de \cite{vidal_retrieval_2014} e \cite{boullenger_studying_2015} que utilizam uma técnica oriunda da sísmica convencional para recuperar a resposta de reflexão das ondas de corpo no ruído ambiental. Devido essa gama de usos da interferometria sísmica de ruído ambiental, o objetivo dessa unidade é aprofundar o conhecimento nos vários tipos de processamentos propostos para o registros do ruído sísmico segundo a área de atuação. Neste artigo serão discriminadas duas áreas de interesse para a utilização da interferometria de ruído, quando é utilizada para fins ambientais e quando  é utilizada para o monitoramento das propriedades físicas do meio, tanto em macro escala, grandes áreas afetadas por terremotos, quanto em microescala, prédios afetados por grandes sismos.
+
+\section*{Utilização de ruído sísmico no monitoramento das propriedades elásticas do meio}
+
+O ruído sísmico ambiental é composto majoritariamente de ondas de superfície, porém também é composto de ondas de corpo como visto na unidade anterior nos exemplos de \cite{roux_p-waves_2005} e \cite{poli_emergence_2012}. O sinal emergente do ruído sísmico ambiental pode ter inúmeros usos focados no monitoramento das propriedades do meio em que estão instaladas as estações sismográficas.  Pode-se discriminar a variação da propriedades físicas do meio em relação ao tempo através da análise do registro sísmico contínuo. Essa avalição temporal se faz necessário em vários braços da ciência, como na engenharia cívil, exploração de minerais de minérios, engenharia de terremotos, dentre outras área. Nesse tipo de monitoramento temporal pode-se utilizar tanto ondas de superfície quanto ondas de corpo, a utilização dependerá da escala de trabalho em conjunto com o alvo do estudo, por exemplo para uma alta resolução em sítios exploratórios é indicado a recuperar a reposta de reflexão das ondas de corpo, como mostra \cite{boullenger_studying_2015} em seu trabalho. Já para extensas regiões, como mostrado no trabalho de \cite{zaccarelli_variations_2011}, utiliza-se ondas de superfície, porque o ruído sísmico é composto principalmente por ondas de superfície, como visto nas unidades anteriormente estudadas.
+
+Nesta seção serão apresentados os artigos que buscam monitorar as variações das propriedades do meio em função de algum evento antrópico ou não. Além dessa discriminação, também serão separados os trabalhos pela escala de trabalho. Trabalhos como os de \cite{prieto_impulse_2010}, \cite{vidal_retrieval_2014}, \cite{boullenger_studying_2015} e \cite{nakata_damage_2015} estudam a mudanças do meio em escala local serão abordados de maneira terão uma medologia diferente de trabalhos realizados em grandes áreas, como os de \cite{li_seismic_2006} e \cite{zaccarelli_variations_2011}.
+
+\subsection*{Utilização do ruído sísmico para o monitoramento urbano}
+
+Os trabalhos de \cite{prieto_impulse_2010} e \cite{nakata_damage_2015} monitoram o comportamento das estruturas de edifícios após a passagem de grandes terremotos em prédios nos Estados Unidos e no Japão, respectivamente. Para tal monitoramento os autores utilizam a resposta do edifício, ou construção. \cite{snieder_extracting_2006} define que a resposta da estrutura de um edifício a um tremor natural ou induzido é determinado pela velocidade das ondas cisalhantes e pela atenuação da estrutura. O mesmo autor complementa que a velocidade cisalhante junto com a geometria da construção controla a frequência de resonância do edifício. A atenuação determina a taxa de dissipação de energia em uma construção, a qual muda de acordo com a movimentação de uma estrutura dada uma excitação. 
+
+\cite{snieder_extracting_2006} calculam a resposta da construção utilizando a interferometria em dados oriundos de terremotos para cada andar em uma biblioteca na Califórnia. Este trabalho mostra que informação sobre a fase permite obter a reposta da construção no domínio do tempo e observar a propagação das ondas dentro do edifício. \cite{prieto_impulse_2010} e \cite{nakata_damage_2015} mostram que a interferometria de deconvolução muda as condições de borda na base do edifício quando deconvonlui-se o campo de onda observado em cada andar com o registro na base. \cite{snieder_extracting_2006}, \cite{prieto_impulse_2010} e \cite{nakata_damage_2015} assumem que não existem nenhum tipo de movimentação do terreno onde o prédio está alicerçado. A resposta oriunda da deconvolução pode ser utilizada para diversos estudos, como: (1) parâmetros modais da construção, (2) propagação da onda dentro do edifício, (3) estimar o fator de qualidade (Q) associado com os modos normais e (4) predição da resposta da construção em devido a tremores de várias intensidades. \cite{nakata_damage_2015} mostra a importância de ter um controle temporal das respostas das construções para regiões altamente sismogênicas. \cite{prieto_impulse_2010} intitula que as propriedades da fase da onda são úteis para identificar danos nas contruções dando informações sobre as mudanças nos parâmetros elásticos e nos coeficientes de reflexão do meio.
+
+\cite{nakata_damage_2015} descreve que a técnica da interferometria de deconvolução assume uma propagação vertical da onda (1D) com o número de onda constante e atenuação da construção e sem reflexões internas (entre os andares intermediários) para simplificar as equações. Essas hipóteses são utilizadas de acordo com uma solução linearizada para a equação 1D da onda. Este autor equaciona a reposta de um terremoto em uma altura $z$ como:
+
+\begin{equation}
+u(z,\omega) = \frac{S(\omega) \{ \exp^{ikz}\exp^{-\gamma |k|z} + \exp^{ik(2H-z) \exp^{-\gamma |k| (2H-z)}} \}}{1 - R(\omega) \exp^{2ikH}\exp^{-2 \gamma |k| H} }
+\end{equation}
+
+Onde $S(\omega)$ é a forma de onda incidente na base do edifício, $R(\omega)$ é o coeficiente de reflexão, $k$ é o número de onda, $\gamma$ é o coeficiente de atenuação, $H$ é a altura do edifício e $i$ é a unidade imaginária. Por conveniência, o nível térreo do prédio será $z=0$ e a medida que se avança os andares $z$ será positivo. A forma de onda $S(\omega)$ contém a \textit{wavelet} da fonte do terremoto e o efeito da propagação da onda embaixo do edifício. A equação acima indica que as ondas estão reverberando entre o topo e chão do edifício com uma perda de energia causada pela atenuação intrínsica do prédio $(\gamma)$ e as condição de contorno na base $R(\omega)$.  Quando se deconvolve as ondas observadas em $z$ com aquelas observadas na base do edifício $(z=0)$, obtem-se:
+
+\begin{equation}
+D(z,0,\omega) = \frac{u(z,\omega)}{u(0,\omega)}  \bigl(\begin{smallmatrix}
+ = \frac{u(z,\omega)u \ast (0,\omega)}{|u(0,\omega)|^2 + \epsilon}  \\ 
+ \end{smallmatrix}\bigr)
+\end{equation}
+
+\begin{equation}
+ = \frac{\exp^{ikz} \exp^{-\gamma |k|z} + \exp^{ik(2H-z)} \exp^{-\gamma |k| (2Hz)}} {1 + \exp^{2ikH} \exp^{-2\gamma |k| H}} 
+\end{equation}
+
+em que $\ast$ é o complexo conjugado e $\epsilon$ é o parâmetro de regularização da deconvolução.
+
+A onda deconvoluída é um pico único porque um sinal deconvoluído com ele mesmo é uma função delta \citep{snieder_extracting_2006}. As ondas deconvoluídas de todos os andares são causais, logo $t>0$. O primeiro pacote de ondas é formato por ondas que se propagam no sentido positivo de $z$, logo se propagam para cima. A reflexão dessa onda que se propaga para cima no topo é dada pelo segundo pico negativo, logo a onda se propaga para baixo. Logo o sinal recuperado pela equação acima é um conjunto de reflexões com polaridades positivas e negativas. Segundo \cite{snieder_extracting_2006} e \cite{nakata_damage_2015} após essas reflexões pode-se ver na ondas deconvoluídas as ondas que são produtos da ressonância dentro do edifício. A forma de onda resultante da deconvolução apresenta-se de forma simples, logo é sugestiva a ideia que a propagação seja unidimensional dada a frequência empregada. 
+
+\subsection*{Utilização do ruído sísmico para o monitoramento de propriedades crustais em áreas altamente sismogênicas}
+
+Nesta subseção serão discutidas as técnicas utilizadas nos trabalhos de \cite{li_seismic_2006} e \cite{zaccarelli_variations_2011} para estudar o comportamento das rochas circundantes a hipocentros de grandes terremotos. As regiões estudadas por \cite{li_seismic_2006} e \cite{zaccarelli_variations_2011} são regiões altamente sismogênicas do globo terrestre, sul da Califórnia e região central da Itália, respectivamente. O monitoramento possui a mesma ideia central em ambos trabalhos, trata-se de calcular as propriedades físicas do meio antes e depois de um grande evento sísmico, no caso caso da Califórnia e da Itália um terremoto de magnitude igual a 6. 
+
+Tanto \cite{li_seismic_2006} quanto \cite{zaccarelli_variations_2011} reportam mudanças temporais na velocidade sísmica medida antes e depois da passagem dos grandes eventos sísmicos. Ambos os trabalhos utilizam a correlação cruzadas das formas de ondas resultantes do processamento para calcular o atraso entre os dados recolhidos antes do evento com os dados recolhidos após o evento. No caso do artigo de \cite{li_seismic_2006} os dados são de 2 anos antes do evento e de meses depois do evento, já no caso de \cite{zaccarelli_variations_2011} os dados são de 1 ano antes do evento principal e de 1 ano depois do evento.
+
+Uma diferença considerável entre os dois trabalhos  é o tipo de banco de dados utilizado, porque o artigo de \cite{li_seismic_2006} utiliza dados oriundos de réplicas e de tiros sísmicos causados por explosões, já \cite{zaccarelli_variations_2011} utiliza apena o ruído sísmico ambiental contínuo. Porém os dois autores utilizam-se da correlação cruzada para o cálculo do tempo de percurso das ondas sísmicas, e com tal tempo o cálculo do atraso entre os dados pré e pós terremoto. E sabendo que qualquer mudança no tempo de percurso da correlação, atraso, reflete variações das propriedades elásticas do meio devido a passagem do terremoto.
+
+\subsection*{Utilização do ruído sísmico para o monitoramento de áreas para exploração}
+
+Nessa subseção serão apresentados os trabalhos de \cite{vidal_retrieval_2014} e \cite{boullenger_studying_2015} que tentam apresentar novas metodologias para a utilização do ruído sísmico ambiental para a área de exploração. Para tal, \cite{vidal_retrieval_2014} desenvolvou uma metodologia para iluminar as ondas de corpo presentes no ruído sísmico. A escolha das ondas de corpo é baseada nas propriedades de propagação das ondas de corpo, isso faz com essas ondas sejam favoráveis no imageamento de potenciais alvos da indústria, como visto na unidade passada. Mas a vantagem apresentada pela interferometria passiva é que a mesma não utiliza fontes ativas para recuperar a resposta de reflexão da subsuperfície, mas apenas registros do ruído sísmico ambiental. Porém um bom resultado da aplicação dessa metodologia dependerá de alguns fatores, como: distribuição geométrica e assinatura da fonte de ruído gerador das ondas de corpo. 
+
+Como visto na unidade passada, e retomado por \cite{vidal_retrieval_2014} e \cite{boullenger_studying_2015}, o estudo das fontes das ondas de corpo ainda é um tópico recente quando comparado às ondas de superfície. Um dos agravantes seria que o ruído sísmico ambiental é dominado por ondas de superfície, pois na grande maioria dos casos as fontes são muito próximas á superfície terrestre. Logo é uma dificuldade evidente conseguir extrair ondas de corpo em meioa a um registro predominantemente de ondas de superfície. Então se faz necessário uma metodologia capaz de suprimir todo esse conteúdo de ondas de superfície domninante no ruído sísmico ambiental. A resposta veio com a metodologia implementada por \cite{vidal_retrieval_2014}, onde existe uma busca preferencial por fontes de ruído que geram ondas de corpo. Para dar preferência a parte do ruído que é composta pro ondas de corpo \cite{vidal_retrieval_2014} e \cite{boullenger_studying_2015} utilizam a técnica chamda \textit{beam-forming} e filtrando o sinal bruto em janelas de frequências dominadas por ondas de corpo. 
+
+\cite{boullenger_studying_2015} faz a tentativa de monitorar uma pequena área de armazenamento de $CO_{2}$ numa fazenda em Ketzin, Alemanha. Já \cite{vidal_retrieval_2014} além de propor a nova metodologia também faz testes com dados reais em Annerveen, Holanda. \cite{boullenger_studying_2015} além de extrair ondas de corpo também fazer uma comparação temporal pré e pós a injeção de $CO_{2}$ na região. Tal técnica é chamada comunmente no ramo do petróleo como \textit{time slice}.
+
+\cite{boullenger_studying_2015} mostra que as correlações cruzadas são formadas sobre registros das funções de green nos receptores de fontes ao longo do limite de integração $S$. No domínio da frequência essa relação é dada por:
+
+\begin{align*}
+\hat{G}(x_{B}, x_{A}, \omega) + \hat{G}^{\ast}(x_{B}, x_{A}, \omega) \\  
+\approx \frac{2}{\rho c} \oint_{S} \hat{G}^{\ast}(x_{B}, x, \omega) + \hat{G}(x_{A}, x, \omega) d^{2}x,
+\end{align*}
+
+onde $x$ é a coordenada de limite da fonte, $\rho$ e $c$ são constantes de densidade e velocidade de propagação, respectivamente, ao longo de $S$. $\hat{G}(x_{A}, x, \omega)$ e $\hat{G}(x_{B}, x, \omega)$ são, respectivamente, as Funções de Green de uma fonte em $x$ para um receptor em $x_{A}$ e em $x_{B}$. $\hat{G}(x_{B}, x_{A}, \omega)$ é a função de Green de $x_{A}$ para $x_{B}$. O sinal $\ast$ significa o complexo conjugado e corresponde ao tempo reverso no domínio do tempo.
+
+
+\subsection*{Metodologia aplicada no monitoramento de propriedades elásticas do meio}
+
+Visando o melhor entendimento das metodologias aplicadas na reconstrução da Função de Green Empírica a partir do ruído sísmico ambiental nesta unidade. Cada etapa de processamento, propostos por inicialmente por \cite{bensen_processing_2007}, será discutida para todos os trabalhos. Entretanto para cada objetivo o processamento foi diferenciado. Nos próximos tópicos serão abordados os principais passos no processamento dos dados, evidenciando, quando houver, as principais discrepâncias entre os tipos de processamentos.
+
+\subsubsection*{Banco de dados e pré-processamento}
+
+O banco de dados da maioria dos artigos citados nessa seção é formado pelo registro contínuo das três componentes (N-S, E-W e Z) dos sensores banda larga, exceto os trabalhos de \cite{zaccarelli_variations_2011} e \cite{boullenger_studying_2015} que utilizam apenas as componentes verticais dos sensores, este ultimo se ultiliza de geofones e hidrofones. Nota-se que na maior dos trabalhos utilizam-se do ruído sísmico ambiental como principal fonte, e utilizam sismos apenas para comprovar os resultados, como \cite{prieto_impulse_2010}. Já \cite{nakata_damage_2015} utiliza dados oriundos de terremotos antes e depois de um grande terremoto de 9 de magnitude. Já \cite{li_seismic_2006} utiliza dados de tiros sísmicos e réplicas de terremotos em seu trabalho. 
+
+De todos os artigos mostrados nessa seção apenas o trabalho de \cite{zaccarelli_variations_2011} exemplifica com clareza o pré-processamento dos dados. Isso faz com que a reprodutibilidade do trabalho seja difícil, pois é de fundamental importância o pré-processamento dos dados. \cite{zaccarelli_variations_2011} faz a re-amostragem da série temporal nas três estações utilizadas no trabalho. Também faz a sincronização do tempo e o preenchimento de algumas possíveis lacunas existentes no registro. Após isso faz-se o branqueamento do sinal entre 0.1 e 1 Hz e a normalização da amplitude pela normalização one-bit. 
+
+\subsubsection*{Processamento dos dados}
+
+Mesmo os trabalhos separados na mesma seção possuem algumas diferenças no mode de processar os dados. Os trabalhos voltados para o monitoramento de contruções civis utilizam dados diferentes para extrair a resposta do edifício. O trabalho de \cite{nakata_damage_2015} utiliza dados oriundos de terremotos e faz a interferometria de deconvolução dos registros, porém o autor não foi muito claro quanto a utilização dos dados. Já \cite{prieto_impulse_2010} exemplifica melhor como foi realizada a deconvolução. Segundo o autor a cada série temporal com 10 minutos de tamanho foi computada a função de reposta do impulso em relação ao térreo. Os resultados foram separados em médias de 1, 14,30 e 50 dias de duração. E para cada deconvolução fez-se o branquamento do sinal, para compensar problemas com a amplitude de cada frequência. \cite{prieto_impulse_2010}, assim como \cite{nakata_damage_2015}, calcula a velocidade da onda S através do tempo de percurso entre a onda que reflete entre o topo e a base do prédio, isto é feito através da regressão linear da curva que melhor ajusta as velocidades em um gráfico da altura pelo tempo do percurso. \cite{prieto_impulse_2010} também calcula a ressonância e a atenuação do edifício.
+
+\cite{li_seismic_2006} e \cite{zaccarelli_variations_2011} monitoram a evolução temporal das propriedades elásticas de regiões afetas por grandes terremotos. \cite{li_seismic_2006}, apesar de utilizar dados oriundos de tiros sísmicos e de réplicas de terremotos, processa os dados de forma semelhante a \cite{zaccarelli_variations_2011}, este utiliza apenas dados de ruídos sísmico. \cite{li_seismic_2006} calcula os tempos de percurso das ondas P, S e ondas guiadas pela zona de falha antes e depois do terremoto de Parkfield através de tiros sísmicos e de réplicas de terremotos. Esses tempos de percursos e as velocidades sísmicas são calculadas baseadas na interferometria de ondas coda, técnica da correlação cruzada com janela móvel das séries temporais. Toda essa correlação foi calculada com os sismogramas filtrados com um filtro passa-baixa (<3 Hz), e a janela móvel está localizada entre a primeira chegada da onda P e o final da coda S. 	Para se ter resultados aceitáveis o fator de corte mínimo do coeficiente de correlação foi de 0.8 para ondas P, S e ondas guiadas.  Após os cálculos das correlações cruzadas para antes e depois do terremoto, calculou-se o atraso através da correlação cruzada entre as formas de ondas das correlações cruzadas pré e pós terremoto. Já \cite{zaccarelli_variations_2011} para calcular o atraso através do ruído sísmico ambiental utilizou como referência a correlação cruzada de todo o intervalo de tempo. Como recortes momentâneaos utilizou intervalos de 50 dias de empilhamentos, e com isso calculou o atraso através da correlação cruzada da forma de onda de referência por esses recortes de 50 dias. Com esses atrasos calculou-se a perturbação da velocidade sísmica através de uma regressão linear.
+
+Os trabalhos de \cite{vidal_retrieval_2014} e \cite{boullenger_studying_2015} tentam inserir novas metodologias para a iluminação de estruturas em subsuperfície através da resposta de reflexão das ondas de corpo contidas no ruído ambiental. Os autores para mostrar a teoria prosposta iniciam os artigos com uma explicação teórica e testes com dados sintéticos agregados a dados de sísmica convencional. \cite{vidal_retrieval_2014} discute como suprimir a presença e dominância das ondas de superfície no ruído sísmico. Já \cite{boullenger_studying_2015} mostra como o a resolução através de dados oriudos de ruídos sísmico varia em relação ao número de fontes e ao formato dos agloramerados dessas fontes de ondas de corpo. A modelagem direta do problema é bem explicada em ambos os artigos, no entanto o processamento do dado real não fica muito explicitado, pois é descrito de forma reduzida no final desses artigos. Faltando clareza na evolução das etapas do processamento do sinal bruto. \cite{boullenger_studying_2015} após um diagnóstico apurado do banco de dados seleciona apenas 3 dias de registros  de um como conjunto de dados de 3 meses de dados. O autor processa a auto-correlação das componentes verticais, tanto dos hidrofones quanto dos geofones, em intervalos de 20 minutos e empilha o resultados até chegar em 24 horas de dados empilhados. Já \cite{vidal_retrieval_2014} possui um total de 23 horas e 56 minutos de dado contínuo. Ele secciona esses dados em intervalos, ou painéis, de 10 segundos de largura como 7.5 segundos de sobreposição entre os paínéis. Ambos os autores aplicaram o diagnóstico de iluminação para suprimir as ondas de superfície do conjunto de dados, no caso de \cite{vidal_retrieval_2014} de 34.434 painéis apenas 5 não eram dominados por ondas de superfície, e somente 4 possuiam dados confíaveis da resposta de reflexão.
+
+\section*{Utilização de ruído sísmico para fins ambientais}
+
+Microssismos são vibrações contínuas da Terra observadas entre grandes terremotos. \cite{gerstoft_global_2008} argumenta que a maior parte dos estudos com microssismos são focados em energia de baixa frequência (0.05 - 0.5 Hz) se propagando como ondas de superfície. No entanto como já foi mostrado na unidade anterior também existe energia que se propaga como onda de corpo (ondas P). Os trabalhos aqui apresentados irão focar o uso das ondas de corpo para investigar a altura das ondas do mar, \cite{bromirski_ocean_1999}, e para localizar tempestades distantes, \cite{gerstoft_global_2008}.
+
+A caracterização das ondas de corpo no ruído sísmico ambiental foi bastante explicitada na unidade passada, agora pode-se ver inúmeras aplicações, tanto na área da exploração quanto na pesquisa ambiental.  O trablaho de \cite{bromirski_ocean_1999}, mesmo sendo antigo, consegue englobar muito bem todas as qualidades que fizeram o ruído sísmico ganhara notoriedade nessa ultima década, além de mostrar essa possibilidade de recuperar séries temporais históricas de variabilidade da altura das ondas do oceano e a correlação com dados meteorológicas. Isso é bastante inovador e necessário, pois tem-se muitas lacunas nos dados meteorológicas recentes, além de uma baixa cobertura, porém já tem-se grande parte das regiões costeiras do globo terrestre coberta por estações sismográficas de banda larga. \cite{gerstoft_global_2008} já faz considerações sobre a a geração das ondas de corpo no ruído sísmico, além ligação entre grandes tempestades marinhas em águas profundas e as ondas de corpo contidas no ruído sísmico ambiental. Além disso, também mostra que as ondas de corpos possuem uma energia concentrada nas altas frequências na banda do microssismo secundários, porém às vezes estão assosciadas a eventos específicos.
+
+\subsection*{Metodologia aplicada para fins ambientais}
+
+A metodologia é proposta pelos dois autores difere um pouco, além de objetivos diferentes possuem um banco de dados diferentes. \cite{bromirski_ocean_1999} busca em seu artigo comparar dados oriundos de boias meteorológicas com dados oriundos de estações sismográficas de banda larga. Essa comparação se faz em grande parte pela análise da semelhança dos espectros desses dois tipos de banco de dados. Já \cite{gerstoft_global_2008} utiliza a técnica da beamforming para poder localizar as fontes das grandes tempestades marinhas em águas profundas. 
+
+\subsubsection*{Banco de dados e pré-processamento}
+
+O banco de dados para o utilizado nesses dois artigos é composto por: dados de bóias meteorológicas próximas à costa, e uma estação de banda larga na costa da Califórnia em vários períodos, \cite{bromirski_ocean_1999}, e 155 componentes verticais de estações de banda larga no sul da Califórnia num intervalo de 1 ano de dado (2006). Uma das únicas etapas de pré-processamento informada pelos dois autores, é a decimação em 1 Hz dos registros nas estações sismográficas, e \cite{gerstoft_global_2008} mostra que foi retirado a resposta instrumental dos registros nas estações e feita a normalização na frequência.
+
+\subsubsection*{Processamento dos dados}
+
+\cite{bromirski_ocean_1999} na comparação entre os dados das bóias meteorológicas e das estações sismográficas é feita por características espectrais. O processamento nas bóias foi feito da seguinte maneira, calculou-se as estimativas das densidades espectrais em segmentos de 1024 segundos, já nas estações sismográficas 512 segundos com sobreposição de 256 segundos, essa segumentação do registro na base 2 é feita para aumentar otimizar o cálculo das transformadas de Fourier do sinal. Após o cálculo das estimativas espectrais fez uma média e empilhou-se os segmentos em intervalos de 1 em 1 hora, assim os dois bancos de dados são correspondentes em tamanho e podem ser comparados. Com as funções de densidade espectrais calculadas pode-se estimar, nesses dois banco de dados distintos, a altura de ondas do mar. Além disso também reconstruiu-se este mesmo parâmetro para diferentes épocas, para testar a influência da atividade marinha próximas à costa. Já \cite{gerstoft_global_2008} também segmenta o dado oriundo das estaçõess sismográficas em intervalso de 512 segundos e computa a densidade espectral cruzada com empilhamentos de 3 horas de tamanho. E partir dai foi computado a beamformer nesses intervalos de 3 horas. E através da projeção inversa pode-se identificar de qual parte do mundo é oriundo a energia da onda P observada na rede sismográfica. Também fez-se a projeção inversa para diferente períodos do ano para tentar identificar variabilidade sazonais nas fontes desse ruído. 
+
+\section*{Resultados e Discussões}
+
+Os resultados apresentados nos artigos discutidos acima possuem uma fundamentação tanto teórica quanto em dados muito boa, exceto nos trabalhos de \cite{vidal_retrieval_2014} e \cite{boullenger_studying_2015} que não apresentaram dados e resultados coerentes com o objetivo proposto. Por exemplo, \cite{boullenger_studying_2015}compromete bastante o objetivo que era fazer um recorte no tempo pré e pós a injeção do $CO_{2}$ porque o mesmo não possui dados de antes a injeção de $CO_{2}$. Já \cite{vidal_retrieval_2014} possui uma quantidade de dado disponível muito pequena, tanto que após a aplicação da técnica formulada uma parcela muito pequena de dados restaram, o que inviabilizou o objetivo proposto para o trabalho. 
+
+O trabalho de \cite{bromirski_ocean_1999} mostra que podem haver discrepâncias na estimativa da altura das ondas obtidas por esses dois conjuntos de dados devido a atividades climáticas intensas, no entanto a técnica mostrou bastante estável e conseguiu atingir o objetivo apresentado.
+
+
+\section*{Conclusões}
+
+Com o fim desta unidade pode-se caminhar por inúmeras aplicações da interferometria sísmica utilizando o ruído sísmico. É importante salientar os diversos tipos de processamentos de dados apresentados, além de poder ver a integração desse tipo de dado com dados oriundos de diferentes áreas de pesquisa. 
+
+\bibliographystyle{seg.bst}
+\bibliography{References.bib}
+    
+\end{document}
