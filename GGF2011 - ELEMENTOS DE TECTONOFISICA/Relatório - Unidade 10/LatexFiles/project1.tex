@@ -1,0 +1,42 @@
+%\documentclass[paper,twocolumn]{geophysics}
+\documentclass[manuscript]{geophysics}[10pt]
+%\documentclass[long]{geophysics}
+% An example of defining macros
+
+\usepackage[portuguese]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+
+
+\usepackage{amsmath}
+
+
+\newcommand{\rs}[1]{\mathstrut\mbox{\scriptsize\rm #1}}
+\newcommand{\rr}[1]{\mbox{\rm #1}}
+\usepackage{color}
+
+\begin{document}
+
+\begin{center}
+\textbf{\LARGE
+ Artigo 10 - Variation of sea floor depth with age: {A} test of models based on drilling results - \cite{johnson_variation_1992}} \\
+\textit{Diogo Luiz de Oliveira Coelho}
+\footnote{\textit{Universidade Federal do Rio Grande do Norte - UFRN
+Centro de Ciências Exatas e da Terra - CCET
+Departamento de Geofísica
+Campus Universitário - Lagoa Nova
+59072-970 Natal, RN}}
+\end{center} 
+
+Os autores analisam em seu artigo a variação da profundidade do assoalho oceânico atrávés de poços oriundos das campanhas de perfuração da DSDP (\textit{Deep Sea Drilling Project}) e da ODP (\textit{Ocean Drilling Program}). A introdução do artigo é bem clara e os autores ainda dividiram em tópicos para facilitar o leitor com os dados e modelos, tanto o PSM quanto o GDH1, utilizados para testar os resultados de perfuração. Todavia, o resultado gerado não é robusto para todo o banco de dados obtido pelas campanhas de perfuração. Isto é razoável, pois não existe um método perfeito, porém em algumas partes o artigo não está bem embasado, tanto teoricamente quanto na prática. A seguir foram abordados os principais pontos de incongruência.
+
+A parte metodológica do artigo é bem estruturada. No entanto, os autores utilizam filtros antes e depois da aplicação da metodologia que não ficam claro o real motivo de sua utilização. Tais filtros não corroboram com a metodologia prosposta, pois carecem de uma explicação concreta e embasada na sua utilização. Faz-se necessário citar que os próprios autores, quando utilizam o "\textit{depth filter}", escrevem sobre uma provável tendência de circularidade na utilização do mesmo. Este filtro exclui os dados de perfurações que possuem uma variação tanto positiva quanto negativa de mil metros da variação de idade esperada ($t^{1/2}$). Os autores, nesta parte do texto, apresentam este filtro sem nenhum argumento plausível para a sua utilização. Isso faz com que a metodologia apresentada não seja robusta, pois essa pré-filtragem mostra essa teoria só funciona com dados que possuam uma certa variação de amplitude. A segunda "\textit{filtragem}" apresentada pelos autores é mostrada na Figura 2 com os pontos não-preenchidos, tais "\textit{outliers}" são numerosos quando se observam idades entre 10 e 40 milhões de anos. Tais pontos, como disseram os autores, se fossem excluídos do resultado final faria com que o desvio padrão encontrado fosse 240 metros, média excelente encontrada em outros artigos. Esse tipo de comentário feito pelos autores mostra que a técnica não explica o banco de dados em sua plenitude e seria importante que os autores tentassem apresentar uma explicação razoável para estes "\textit{outliers}".
+
+Ao analisar os resultados os autores enumeram seis pontos para explicar a variação do rms calculado. Esses pontos são referenciados em sua maioria, no entanto, alguns pontos mostrados não podem influenciar nos resultados, porque para montar o banco de dados com os poços os autores excluíram inúmeros sítios, como poços em regiões próximas de hotspots, montes submarinos, zonas de fraturas, margens continentais e bacias de ante arco. Juntamente com isso, seria necessário uma maneiro melhor para explicar o motivo desse desajuste nos dados com assoalho oceânico de idade menor que noventa milhões de anos, principalmente entre 10 e 40 milhões de anos.
+
+
+\bibliographystyle{seg.bst}
+\bibliography{References.bib}
+    
+\end{document}
