@@ -1,9 +1,9 @@
 %\documentclass[paper,twocolumn]{geophysics}
-\documentclass[manuscript]{geophysics}
-%\documentclass[long]{geophysics}
+%\documentclass[manuscript]{geophysics}
+\documentclass[long]{geophysics}
 % An example of defining macros
 
-\usepackage[portuguese]{babel}
+\usepackage[english]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 
@@ -29,11 +29,336 @@ Campus Universitário - Lagoa Nova
 59072-970 Natal, RN}}
 \end{center} 
 
-\cite{brewer_stress_1980} apresenta um artigo curto, logo espera-se um artigo conciso, bem escrito e direto, porém a introdução está difusa e o objetivo do trabalho não aparece na introdução. Este objetivo é visível apenas no \textit{abstract}, mesmo assim não fica tão claro o que foi feito no artigo após ler a introdução do artigo. Ao final da introdução seria preciso esclarecer o objetivo principal do artigo, além de falar um pouco sobre os resultados obtidos no trabalho. A melhoria da introdução se faz necessário pois não existe uma transição clara dos pontos abordados no artigo.
 
-Apesar de uma introdução complicada, o restante do trabalho possui uma transição suave entre metodologia, resultados e concluções, trazendo uma fluidez na leitura e no entendimento do artigo. Trata-se de uma aplicação em dados reais da teoria de Anderson, para a partir dai calcular o o coeficiente de fricção. Mas o que realmente chama atenção nesse pequeno artigo é o coeficiente de fricção calculado. Pois o autor calcula um coeficiente de 0.36, um valor muito abaixo do calculado em experimentos laboratoriais, por volta de 0.6 - 0.8. Entendo que possa haver erros devido às diferentes condições entre o laboratório e o campo, porém o valor observador de duas a três vezes menor que o valor previsto em laboratório não é fácil de digerir. Mesmo apresentando algumas alternativas para um baixo valor encontrado, como a presença de minerais de argila (filossilicatos) e a diferença de escala, não é palpável essa grande diferença entre o valor previsto e o observado. Ou seria necessário rever a metodologia dos experimentos laboratoriais realizados ou realmente adicionar mais variáveis de controle às análises laboratoriais.
+\section{Introduction}
 
-As figuras dispostas no artigo necessitam de melhorias pontuais na visualização da linha sísmica, principalmente em relação aos nomes das estações e de alguns nomes de áreas, e na seção sísmica é bem complicado observar todas as estruturas delimitadas na seção interpretada. Seria interessante anexar a figura 2 uma seção geológica para poder gerar uma melhor visualização da seção sísmica.
+
+
+\section{Geological Setting}
+The Parnaíba basin of NE Brazil is one of three large Phanerozoic sedimentary basins in northern South America; Parana, Parnaíba, and Amazon (Figure 1). The depth to basement image of Figure 2, derived from potential field data and constrained by wells and seismic data, gives an impression of the differing shape, size, and depth of these basins. The Parnaíba basin is located between the Amazonian craton and São Francisco craton [Almeida et al., 1981; Brito Neves and Fuck, 2013; Cordani et al., 2013]. It is underlain by relatively thick lithosphere of the order of 160–180 km [McKenzie and Priestley, 2008, personal communication,  2014], and Precambrian crust accreted and stabilized during the Neoproterozoic Brasiliano orogeny [Brito Neves et al., 1984]. Fortes [1978] postulated that the form and tectonic history of the Parnaíba basin
+are related to the reactivation of preexisting basement structures. On the basis of regional geology and isotope studies of a few core samples, Brito Neves et al. [1984] proposed the existence of a distinct but unexposed basement block beneath the center western part of the basin, trapped between the Amazonian craton and the Borborema orogenic belt (Figure 1).
+
+Góes and Feijó [1994] described the Parnaíba basin as occupying over
+600,000 km 2 and comprising up to ~3.4 km of Phanerozoic sedimentary
+section overlying localized rifts. Most recently, de Castro et al. [2014]
+extended this perspective, arguing from airborne gravity and magnetic data, that
+most of the Parnaíba basin is underlain by Eopaleozoic rifts. They concluded
+that rifting was the driving mechanism for the subsidence of the Phanerozoic
+basin. Two major igneous events punctuate the basin development, with
+extensive extrusives in the Early Jurassic and widespread dykes and sills of Early Cretaceous age [Fodor et al., 1990].
+
+\section{Main tectonic features}
+
+Continental-scale shear zones (lineaments) played a major
+role in the Brasiliano orogeny and in the evolution of the
+Parnaíba Basin. These shear zones mark sutures associated
+with continental collisions such as the Araguaia and Trans-
+brasiliano lineaments (Fig. 2). The 1000 km long Araguaia
+suture zone represents the final Neoproterozoic collision be-
+tween the Amazonian craton, overlain by the allochthonous
+Araguaia belt, and the pre-Neoproterozoic Parnaíba block
+(Brito Neves and Fuck, 2014). Another important shear zone
+is the Transbrasiliano Lineament. Many studies considered
+the Transbrasiliano Lineament to be a continental-scale dis-
+continuity characterized by strong long-wavelength magnetic
+anomalies and by low S wave velocities in the mantle (e.g.,
+Fairhead and Maus, 2003; Feng et al., 2004; Fuck et al.,
+2008; Brito Neves and Fuck, 2014). On the NE side of the
+Parnaíba basin margin, the Transbrasiliano Lineament sepa-
+rates two Neoproterozoic crustal domains of the Borborema
+province (Médio Coreaú and Ceará Central; Fig. 2). The
+Transbrasiliano Lineament also controlled the internal rift
+geometry and formed a 150 km wide rift zone in the east-
+ern portion of the basin. Later reactivations of the Brasil-
+iano shear zones deformed post-rift sequences, including
+
+post-Devonian tectonic inversion (Destro et al., 1994). These
+lineaments also form Precambrian lithospheric-scale bound-
+aries. They were identified in a deep crustal, seismic reflec-
+tion profile across the Parnaíba basin (Daly et al., 2014) and
+represent the collisional sutures of the Amazonian and the
+São Francisco cratons (de Castro et al., 2014).
+Following the Brasiliano/Pan-African orogeny, tectonic
+inversion generated elongated grabens controlled by Precam-
+brian structural fabric, which is mainly marked by ductile
+shear zones in the basement. The best examples of these
+grabens are the Jaibaras basin and other smaller Cambrian–
+Ordovician rift basins that are partially exposed at the north-
+ern and eastern edges of the Parnaíba basin (Fig. 2). The
+Jaibaras is the best known of these basins. It crops out at
+the NE boundary of the Parnaíba basin (Fig. 2), forms a
+NE-trending, 120 km long and 10 km wide graben generated
+by the reactivation of the Transbrasiliano Lineament in the
+Cambrian–Ordovician basin (Oliveira and Mohriak, 2003).
+
+
+\section{P   receiver   function}
+
+
+The   teleseismic   P   receiver   function   method   has   become   a   popular  technique   to constrain   crustal   and   upper   mantle   velocity   discontinuities   under a   seismic   station (e.g.   Langston,   1977;   Owens   et   al.,   1984;   Kind   and   Vinnik,   1988;   Ammon, 1991; Kosarev   et   al,   1999;   Yuan   et   al.,   2000).  Telesismic   body   wavefor
+ms   recorded   at   a three-component seismic  station  contain  a wealth  of information  on  the earthquake source, the earth structure in the vicinity of both source and the receiver, and mantle propagation   effects.   The   resulting   receiver   function   is   obtained   by   removing   the
+effects of source and mantle path.
+
+The basic aspect of this method is that a few percent of the incident P wave energy from teleseismic events at significant and relatively sharp velocity discontinuities in the crust and upper mantle will be converted to S wave (Ps
+), and arrive at the station within the P wave coda directly after the direct P wave (Fig. 3.1). Ps converted waves are   best   observed   at   epicentral   distances   between   30  and   95 degree   and   are   contained largely on the horizontal components. The amplitude, arrival time, and polarity of the
+locally   generated   Ps   phases   are   sensitive   to   the   S-veloci
+ty   structure   beneath   the recording station. The   data   which   satisfied   the   following   conditions   have   been   used   to   compute   P
+receiver functions.
+       1. Epicentral distances between 30-95 degree
+       2. Magnitude larger than 5.5 (mb)
+       3. clear P onset with high signal-to-noise ratio
+
+Receiver functions are time series obtained from
+teleseismic P-waveforms recorded at single seismic stations,
+after deconvolving the vertical components from the
+corresponding horizontal components [Langston, 1979].
+The deconvolution operation effectively removes the signa-
+ture of the common source time function and instrument
+response from the resulting trace, leaving only the signature
+of the near-receiver propagation. The deconvolved traces
+can be regarded as linear combinations of peaks and troughs
+representing secondary energy generated after the interac-tion of the incoming teleseismic P-wavefront with subsur-
+face discontinuities. The interaction generally results into a
+Ps converted phase (i.e., a P-to-S conversion upon refraction
+across the discontinuity) and two multiply reverberated
+phases between the discontinuity and the free surface (PpPs,a reverberation with two P-segments and one S-segment in
+the raypath; PsPs + PpSs, a reverberation with one P-
+segment and two S-segments in the raypath). The analysis
+of the amplitudes and traveltimes of the interaction phases
+provides important constraints on the seismic structure
+under the station [see, e.g., Owens et al., 1984; Ammon et
+al., 1990; Zandt et al., 1995; Zhu and Kanamori, 2000].
+
+For this study we have selected teleseismic P-wave-
+forms recorded by the BLSP stations shown in Figure 1,
+with sources in the 30 < D < 90 epicentral distance range
+and body wave magnitudes above 5.5. The stations used
+three-component STS-2 sensors with flat velocity response
+from 0.008 to 50 Hz. Additionally, we have also included
+teleseismic PP-waveforms (i.e., P-waveforms that reflect off
+the free-surface once) for epicentral distances beyond 50
+and body wave magnitudes above 5.5. Adding the PP-
+waveforms allowed a more complete azimuthal coverage
+of seismic sources around the station and supplemented the
+data set at stations with short recording periods. The station
+coordinates and recording times for the BLSP stations
+considered in this study are listed in Table 1.
+
+To compute the receiver functions, the selected
+waveforms were decimated to 10 s.p.s., windowed between
+10 s before and 100 s after the leading arrival (either P or
+PP), de-trended, tapered, and high-pass filtered above 50 s
+to remove low-frequency, instrumental noise. Radial and
+transverse receiver functions were then obtained from the
+filtered traces by rotating the original horizontal compo-
+nents around the corresponding vertical component into the
+great-circle path, and applying the iterative, time domain
+deconvolution procedure of Ligorrıa and Ammon [1999] to
+the rotated traces, with 500 iterations. The transverse
+receiver functions were not used in our subsequent analysis,
+but provided a useful measure of the degree of lateral
+heterogeneity and isotropy of the propagating medium.
+The iterative deconvolution procedure applies a Gaussian
+low-pass filter to the original waveforms to remove high-
+frequency noise. We computed receiver functions at two
+overlapping frequency bands corresponding to Gaussian
+widths of a = 1.0 and a = 2.5 (corner frequencies of
+0.5 Hz and 1.2 Hz, respectively), since they contain
+complementary information on the receiver structure under
+the station [see, e.g., Julià, 2007].
+
+The percentage of recovery of the original radial
+waveform was assessed from the RMS misfit between the
+original radial waveform and the convolution of the radial
+receiver function with the original vertical component, and
+those events recovering less than 85% were rejected.
+Additionally, the remaining waveforms were visually
+inspected for stability and waveform coherency. Our orig-
+inal selection consisted of 5977 P-waveforms and 13642
+PP-waveforms, resulting in a total of 456 P- and PP-receiver
+functions with a high-frequency content (a = 2.5) and 500
+P- and PP-receiver functions with a low-frequency content
+(a = 1.0) after our strict quality control.
+
+Figure 4 displays sample radial and transverse re-
+ceiver function averages for all the stations utilized in this
+study, and a simple inspection of the waveforms reveals
+important properties of the propagating medium under the
+BLSP stations. First, the transverse receiver functions
+generally display small amplitudes compared to the
+corresponding radial waveforms. The transverse signal in
+the P-wave coda is expected to be identically zero for
+laterally homogeneous media, and the small transverse
+amplitudes indicate the propagating medium under the
+BLSP stations is laterally homogeneous and isotropic to a
+good approximation. Stations APOB, CDSB, NUPB and
+perhaps JATB, on the other hand, have larger transverse
+signals and this must be kept in mind when analyzing data
+from these stations. Second, the signature of the sedimen-
+tary cover is quite apparent in all the radial waveforms. The
+shift in the main peak, for instance, is due to a large Ps
+phase generated at the sediment – bedrock interface that
+arrives shortly after the incoming P-wave, and cannot be
+resolved by the Gaussian filter [Cassidy, 1992]. Also other
+apparent peaks and troughs between 1 and 3 s are also
+caused by the interaction of the impinging P-wavefront with
+sedimentary structure. Finally, the Ps phase generated at the
+Moho is generally apparent in all the waveforms at about 5 s,
+but the multiply reverberated phases in the bulk crustal
+structure are generally harder to identify. The wavelengths
+of the reverberated phases are shorter than those of the Ps
+phase, and a gradational crust – mantle boundary could
+reduce their amplitudes significantly [Owens and Zandt,
+1985; Julià, 2007].
+
+
+\section{ Crustal Thickness and Bulk Vp/Vs Ratio}
+The first step in our analysis consisted of obtaining
+estimates for the crustal thickness and bulk Vp/Vs ratio
+from the Moho interaction phases in the receiver functions
+with the hk-stacking technique of Zhu and Kanamori
+[2000]. This procedure performs a grid-search over a
+stacking surface built by summing a weighted combination
+of the Ps, PpPs and PpSs + PsPs amplitudes measured along phase moveout curves. The phase moveout curves are
+computed assuming a layer over a half-space model for a
+range of possible crustal thicknesses and Vp/Vs ratios, and
+should intercept the peak amplitudes in the receiver func-
+tions for the ‘‘true’’ values. In this procedure, the P-wave
+velocity for the layer and the phase weights must be
+specified a priori. Our approach has been to fix the P-wave
+velocity to a value of 6.5 km/s, which is a representative
+average for Precambrian terranes worldwide [e.g., Christensen
+and Mooney, 1995], and to give a zero weight to phases that
+are not observed in the receiver functions. Confidence
+bounds for the thickness and Vp/Vs estimates have been
+obtained by bootstrapping the receiver function waveforms at
+each station with 200 replications [Efron and Tibshirani,
+1991].
+
+Table 2 lists the hk-stacking results for the BLSP
+stations in the Paraná basin, along with other relevant
+parameters. Note that station RCLB, which is located above
+the surface trace of the Jacutinga fault, has been split into
+two subsets sampling each side of the fault. Also note that
+no values are reported for stations APOB and CCUB, due to
+a small data set. The crustal thicknesses range between 41
+and 48 km and are generally constrained within 2 km, the
+only exceptions being stations CDSB, NUPB, RCLB(E),
+and RIFB which yielded confidence bounds in the 3 km
+and 4 km range. Overall, these values are in excellent
+agreement with the independent estimates from previous
+surface-wave and receiver function studies described in
+section 2.2. The bulk Vp/Vs values, however, are more
+variable and less tightly constrained. Many of the estimates
+range between 1.69 and 1.76 and have confidence bounds
+below 0.04, but a significant number of them have
+confidence bounds between 0.06 and 0.10. This range
+of Vp/Vs values is compatible with a bulk felsic composi-
+tion [e.g., Christensen, 1996], but the large confidence
+bounds actually allow for a broader range of crustal com-
+positions. Figure 5 displays the hk-stacking surfaces and
+the corresponding phase moveout curves for all the BLSP
+stations considered in this study. Even though all the hk-
+stacking surfaces show a prominent, single-peaked max-
+imum around the estimated values, the only phase
+consistently observed in all the waveforms is the Ps
+refracted wave. The multiples are seen less consistently
+among the waveforms, especially the PpSs + PsPs phase,
+and this variability is translated into large confidence
+bounds during the bootstrap resampling.
+
+One surprising result is that obtained for station
+PPDB, located along the axis of the basin, which yielded
+an anomalously high Vp/Vs ratio of 1.83 0.03. A
+similar value of 1.85  0.05 was reported by An and
+Assumpção [2006] for this same station, from the slant
+stacking of receiver functions. This agreement, along with the small confidence bounds, suggest this value is
+well constrained. A Vp/Vs of 1.83 is suggestive of crust
+of more mafic composition [Christensen, 1996], perhaps
+due to mafic underplate, but it seems inconsistent with a
+relatively thin crust of 41 1 km and with the lower
+Vp/Vs values at nearby stations (see Figure 6). Also, as
+shown later, a layer of mafic underplate is not observed
+in the joint inversion model for this station. Another
+possibility is that reverberated energy trapped in the
+sedimentary structure is interfering with the Ps phase
+refracted at the Moho and slightly advancing the time of
+the peak amplitude. Energy trapped in sediments can
+reverberate for a long time and even mask the signature
+of deeper discontinuities [e.g., Julià et al., 2004]. Sedi-
+ments do not seem to affect the Ps phase from the Moho
+at any other station, at least not so significantly, but the
+influence of the sedimentary structure must be kept in
+mind when interpreting the results in Table 2.
+
+The strongest correlation between the hk-stacking
+results and subsurface structure is to sediment thickness.
+Figure 6 overlays the hk-stacking results with the basement
+depth isolines in Figure 2a. Note that the largest estimates in
+both Vp/Vs and thickness approximately cluster along the
+axis of the basin, where the sediments are thickest. By
+correcting the crustal thicknesses for sedimentary structure,
+we can attempt a correlation of basement thickness with the
+basement models discussed in section 2.2 (Figure 7). The
+only correlation we observe is to the Paranapanema block,
+but this correlation is counterintuitive. Mantovani et al.
+[2005] defined the Paranapanema block from a gravity high
+in the Bouguer anomaly map, which was interpreted as the
+signature of a central cratonic nucleus under the basin
+framed by Neoproterozoic crust thickened by plate inter-
+actions. Our results indicate the crust within the boundaries
+of the Paranapanema block is thicker, not thinner, than the
+surrounding crust. As discussed in the next section, only a
+few stations show evidence of mafic underplate, and these
+stations are located either outside or very close to the
+borders of the basement fragments postulated by Milani
+and Ramos [1998].
+
+\section{Joint Inversion}
+
+S-wave velocity models beneath BLSP stations in the
+Paraná basin have been obtained through the iterative,
+linearized inversion scheme of Julià et al. [2000, 2003].
+To ensure that both data sets sample similar regions of the
+Earth, we identified the surface-wave tomographic cell
+enclosing each station in our study and extracted the local
+group velocity curve for the tomographic cell. We then
+inverted the receiver functions (high- and low-frequency)
+jointly with the extracted dispersion curve. The data sets
+were normalized for the different number of data points and
+physical units prior to inversion. The procedure includes an
+influence factor that weights the contribution of each data
+set to the misfit function driving the inversion. This param-
+eter was set to a value of 0.5, which provided a good
+compromise between fitting the receiver functions and the
+dispersion velocities.
+
+The starting model for the linearized procedure
+assumed an isotropic, perfectly elastic medium with a 40-km-
+thick crust and a linear S-velocity increase from 3.4 to
+4.0 km/s overlying a flattened PREM. The crustal Vp/Vs
+ratio was set to an a priori value of 1.73 and the crustal
+densities were calculated from the P-wave velocities
+through the empirical relationship of Berteussen [1977].
+The starting model was parameterized as a stack of thin
+layers of constant thickness (0.25 –1.5 km down to 5 km
+depth, 2.5 km down to 50 km depth, 5.0 km down to 100 km
+depth, and 10 km down to 400 km depth). Layers as thin as
+0.25 km are well beyond the resolving power of our high-
+frequency receiver functions, but are required to closely
+match the a priori geotechnical values in Table 3. Inverting
+for a large number of thin layers can sometimes lead to
+instabilities that drive the iterative process away from
+convergence. This difficulty is generally overcome through
+smoothness constraints in the velocity profiles, at the
+expense of losing resolution in the inverted models [e.g.,
+Ammon et al., 1990]. In our inversions, we utilized a depth-
+dependent smoothing that allowed the sedimentary and
+shallow basement structure to be modeled in full detail by
+the data and a priori constraints while preventing instabil-
+ities from arising during the inversion process. In general,
+6 iterations sufficed for the inversion process to converge to
+a final velocity model.
 
 \bibliographystyle{seg.bst}
 \bibliography{References.bib}
