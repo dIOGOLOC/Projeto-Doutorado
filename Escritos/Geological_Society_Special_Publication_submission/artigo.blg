@@ -1,0 +1,83 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: artigo.aux
+The style file: seg.bst.bst
+Database file #1: References.bib.bib
+Warning--empty journal in de_almeida_brazilian_1981
+Warning--empty journal in almeida_crustal_2015
+Warning--empty journal in ammon_isolation_1991
+Warning--empty journal in assumpcao_crustal_2013
+Warning--empty journal in assumpcao_models_2013
+Warning--empty journal in assumpcao_shield_2002
+Warning--empty journal in de_brito_neves_influence_1984
+Warning--empty journal in de_brito_neves_neoproterozoic_2013
+Warning--empty journal in brito_neves_basement_2014
+Warning--empty journal in cassidy_numerical_1992
+Warning--empty journal in christensen_poissons_1996
+Warning--empty journal in cordani_significance_2013
+Warning--empty journal in daly_brasiliano_2014
+Warning--empty journal in de_castro_geophysical_2016
+Warning--empty journal in de_castro_crustal_2014
+Warning--empty journal in efron_statistical_1991
+Warning--empty journal in fairhead_champ_2003
+Warning--empty journal in feng_group_velocity_2004
+Warning--empty journal in feng_upper_2007
+Warning--empty journal in frasseto_receiver_2013
+Warning--empty journal in frassetto_improved_2010
+Warning--empty journal in fuck_rodinia_2008
+Warning--empty journal in gilbert_images_2004
+Warning--empty journal in goes_feijo_1994
+Warning--empty journal in julia_deep_2008
+Warning--empty journal in julia_joint_2000
+Warning--empty journal in klein_gurupi_2005
+Warning--empty journal in langston_structure_1979
+Warning--empty journal in ligorria_iterative_1999
+Warning--empty journal in lloyd_moho_2010
+Warning--empty journal in luz_bulk_2015
+Warning--empty journal in pavao_upper_lower_2013
+Warning--empty journal in schimmel_noise_1997
+Warning--empty journal in van_der_meijde_gravity_2013
+Warning--empty journal in vaz_bacia_2007
+Warning--empty journal in zhu_moho_2000
+You've used 37 entries,
+            2639 wiz_defined-function locations,
+            973 strings with 15769 characters,
+and the built_in function-call counts, 15969 in all, are:
+= -- 1702
+> -- 696
+< -- 16
++ -- 247
+- -- 236
+* -- 1548
+:= -- 2711
+add.period$ -- 37
+call.type$ -- 37
+change.case$ -- 303
+chr.to.int$ -- 36
+cite$ -- 73
+duplicate$ -- 515
+empty$ -- 1084
+format.name$ -- 295
+if$ -- 3170
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 37
+newline$ -- 115
+num.names$ -- 111
+pop$ -- 252
+preamble$ -- 1
+purify$ -- 303
+quote$ -- 0
+skip$ -- 377
+stack$ -- 0
+substring$ -- 1262
+swap$ -- 36
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 222
+warning$ -- 36
+while$ -- 136
+width$ -- 0
+write$ -- 373
+(There were 36 warnings)
