@@ -3,44 +3,82 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: artigo.aux
 The style file: seg.bst.bst
 Database file #1: References.bib.bib
-You've used 1 entry,
+Warning--empty journal in de_almeida_brazilian_1981
+Warning--empty journal in almeida_crustal_2015
+Warning--empty journal in ammon_isolation_1991
+Warning--empty journal in assumpcao_crustal_2013
+Warning--empty journal in assumpcao_models_2013
+Warning--empty journal in assumpcao_shield_2002
+Warning--empty journal in de_brito_neves_influence_1984
+Warning--empty journal in de_brito_neves_neoproterozoic_2013
+Warning--empty journal in brito_neves_basement_2014
+Warning--empty journal in cassidy_numerical_1992
+Warning--empty journal in christensen_poissons_1996
+Warning--empty journal in cordani_significance_2013
+Warning--empty journal in daly_brasiliano_2014
+Warning--empty journal in de_castro_geophysical_2016
+Warning--empty journal in de_castro_crustal_2014
+Warning--empty journal in efron_statistical_1991
+Warning--empty journal in fairhead_champ_2003
+Warning--empty journal in feng_group_velocity_2004
+Warning--empty journal in feng_upper_2007
+Warning--empty journal in frasseto_receiver_2013
+Warning--empty journal in frassetto_improved_2010
+Warning--empty journal in fuck_rodinia_2008
+Warning--empty journal in gilbert_images_2004
+Warning--empty journal in goes_feijo_1994
+Warning--empty journal in julia_deep_2008
+Warning--empty journal in julia_joint_2000
+Warning--empty journal in klein_gurupi_2005
+Warning--empty journal in langston_structure_1979
+Warning--empty journal in ligorria_iterative_1999
+Warning--empty journal in lloyd_moho_2010
+Warning--empty journal in luz_bulk_2015
+Warning--empty journal in mooney_crust_1998
+Warning--empty journal in pavao_upper_lower_2013
+Warning--empty journal in schimmel_noise_1997
+Warning--empty journal in van_der_meijde_gravity_2013
+Warning--empty journal in vaz_bacia_2007
+Warning--empty journal in zhu_moho_2000
+You've used 38 entries,
             2639 wiz_defined-function locations,
-            706 strings with 6270 characters,
-and the built_in function-call counts, 425 in all, are:
-= -- 46
-> -- 13
-< -- 1
-+ -- 4
-- -- 4
-* -- 37
-:= -- 76
-add.period$ -- 1
-call.type$ -- 1
-change.case$ -- 7
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 14
-empty$ -- 31
-format.name$ -- 7
-if$ -- 84
-int.to.chr$ -- 1
+            982 strings with 15983 characters,
+and the built_in function-call counts, 16406 in all, are:
+= -- 1749
+> -- 714
+< -- 16
++ -- 253
+- -- 242
+* -- 1592
+:= -- 2784
+add.period$ -- 38
+call.type$ -- 38
+change.case$ -- 311
+chr.to.int$ -- 37
+cite$ -- 75
+duplicate$ -- 529
+empty$ -- 1115
+format.name$ -- 302
+if$ -- 3257
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 1
-newline$ -- 7
-num.names$ -- 3
-pop$ -- 4
+missing$ -- 38
+newline$ -- 118
+num.names$ -- 114
+pop$ -- 259
 preamble$ -- 1
-purify$ -- 7
+purify$ -- 311
 quote$ -- 0
-skip$ -- 11
+skip$ -- 387
 stack$ -- 0
-substring$ -- 37
-swap$ -- 1
+substring$ -- 1299
+swap$ -- 37
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
-warning$ -- 0
-while$ -- 4
+type$ -- 228
+warning$ -- 37
+while$ -- 140
 width$ -- 0
-write$ -- 14
+write$ -- 383
+(There were 37 warnings)
