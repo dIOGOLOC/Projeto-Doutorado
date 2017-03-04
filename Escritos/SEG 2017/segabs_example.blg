@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: segabs_example.aux
+The style file: seg.bst
+Database file #1: example.bib
+You've used 4 entries,
+            2639 wiz_defined-function locations,
+            716 strings with 6422 characters,
+and the built_in function-call counts, 1163 in all, are:
+= -- 119
+> -- 34
+< -- 4
++ -- 10
+- -- 10
+* -- 76
+:= -- 223
+add.period$ -- 4
+call.type$ -- 4
+change.case$ -- 25
+chr.to.int$ -- 4
+cite$ -- 4
+duplicate$ -- 50
+empty$ -- 94
+format.name$ -- 16
+if$ -- 239
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 6
+newline$ -- 17
+num.names$ -- 12
+pop$ -- 29
+preamble$ -- 2
+purify$ -- 25
+quote$ -- 0
+skip$ -- 36
+stack$ -- 0
+substring$ -- 48
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 18
+warning$ -- 0
+while$ -- 8
+width$ -- 0
+write$ -- 45

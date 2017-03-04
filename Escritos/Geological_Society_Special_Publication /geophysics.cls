@@ -270,10 +270,10 @@
 \DeclareRobustCommand{\old}[1]{\ifthenelse{\boolean{@revd}}{\textcolor{blue}{\sout{#1}}}{}}
 \RequirePackage{natbib}
 \bibpunct[,]{(}{)}{;}{a}{,}{,}
-\DeclareRobustCommand{\refname}{REFERENCES}
+\DeclareRobustCommand{\refname}{References}
 \ifthenelse{\boolean{@manu}}
-{\renewcommand\bibsection{\newpage\section{\refname}}}
-{\renewcommand\bibsection{\section{\refname}}}
+{\renewcommand\bibsection{\newpage\textbf{\LARGE \refname}}}
+{\renewcommand\bibsection{\textbf{\LARGE \refname}}}
 \newcommand{\shortcite}[1]{\citeyearpar{#1}}
 \ifthenelse{\boolean{@manu}}{
   \renewcommand{\baselinestretch}{2.0}
