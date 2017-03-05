@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.9)  5 MAR 2017 01:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.9)  5 MAR 2017 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -109,59 +109,8 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count98
 )
 LaTeX Info: Redefining \refname on input line 273.
-\seg@abstract=\box26
 \c@@append=\count99
 )
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
-Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
-
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks17
-\XKV@tempa@toks=\toks18
-)
-\XKV@depth=\count100
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
--ends (calc, etex, pgfmath)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
-Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
-
-(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
-Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box27
-)
-\tc@llx=\dimen107
-\tc@lly=\dimen108
-\tc@urx=\dimen109
-\tc@ury=\dimen110
-Package trimclip Info: Using driver 'tc-pdftex.def'.
-
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
-File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
-))
-\adjbox@Width=\dimen111
-\adjbox@Height=\dimen112
-\adjbox@Depth=\dimen113
-\adjbox@Totalheight=\dimen114
-
-(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count101
-)
-(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box28
-\sift@deathcycles=\count102
-\@vwid@loff=\dimen115
-\@vwid@roff=\dimen116
-))
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2016/02/24 3.9q The Babel package
 
@@ -170,8 +119,8 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/02/24 3.9q Babel common definitions
-\babel@savecnt=\count103
-\U@D=\dimen117
+\babel@savecnt=\count100
+\U@D=\dimen107
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -186,8 +135,8 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
@@ -198,22 +147,25 @@ Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count104
-\uc@combtoks=\toks21
-\uc@combtoksb=\toks22
-\uc@temptokena=\toks23
+\uc@secondtry=\count101
+\uc@combtoks=\toks19
+\uc@combtoksb=\toks20
+\uc@temptokena=\toks21
 )
 (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box29
-\UL@hyphenbox=\box30
+\UL@box=\box26
+\UL@hyphenbox=\box27
 \UL@skip=\skip51
-\UL@hook=\toks24
-\UL@height=\dimen118
-\UL@pe=\count105
-\UL@pixel=\dimen119
-\ULC@box=\box31
+\UL@hook=\toks22
+\UL@height=\dimen108
+\UL@pe=\count102
+\UL@pixel=\dimen109
+\ULC@box=\box28
 Package: ulem 2012/05/18
-\ULdepth=\dimen120
+\ULdepth=\dimen110
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
@@ -221,23 +173,20 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen121
-\captionmargin@=\dimen122
-\captionwidth=\dimen123
-\caption@tempdima=\dimen124
-\caption@indent=\dimen125
-\caption@parindent=\dimen126
-\caption@hangindent=\dimen127
+\captionmargin=\dimen111
+\captionmargin@=\dimen112
+\captionwidth=\dimen113
+\caption@tempdima=\dimen114
+\caption@indent=\dimen115
+\caption@parindent=\dimen116
+\caption@hangindent=\dimen117
 )
-\c@ContinuedFloat=\count106
+\c@ContinuedFloat=\count103
 Package caption Info: subfigure package is loaded.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box32
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+\@tempboxb=\box29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/03 v2.15a AMS math features
@@ -249,51 +198,51 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks25
-\ex@=\dimen128
+\@emptytoks=\toks23
+\ex@=\dimen118
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen129
+\pmbraise@=\dimen119
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count107
+\inf@bad=\count104
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count108
-\leftroot@=\count109
+\uproot@=\count105
+\leftroot@=\count106
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count110
-\DOTSCASE@=\count111
+\classnum@=\count107
+\DOTSCASE@=\count108
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box33
-\strutbox@=\box34
-\big@size=\dimen130
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen120
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count112
-\c@MaxMatrixCols=\count113
+\macc@depth=\count109
+\c@MaxMatrixCols=\count110
 \dotsspace@=\muskip10
-\c@parentequation=\count114
-\dspbrk@lvl=\count115
-\tag@help=\toks26
-\row@=\count116
-\column@=\count117
-\maxfields@=\count118
-\andhelp@=\toks27
-\eqnshift@=\dimen131
-\alignsep@=\dimen132
-\tagshift@=\dimen133
-\tagwidth@=\dimen134
-\totwidth@=\dimen135
-\lineht@=\dimen136
-\@envbody=\toks28
+\c@parentequation=\count111
+\dspbrk@lvl=\count112
+\tag@help=\toks24
+\row@=\count113
+\column@=\count114
+\maxfields@=\count115
+\andhelp@=\toks25
+\eqnshift@=\dimen121
+\alignsep@=\dimen122
+\tagshift@=\dimen123
+\tagwidth@=\dimen124
+\totwidth@=\dimen125
+\lineht@=\dimen126
+\@envbody=\toks26
 \multlinegap=\skip53
 \multlinetaggap=\skip54
-\mathdisplay@stack=\toks29
+\mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
 )
@@ -307,20 +256,20 @@ Package color Info: Driver file: pdftex.def on input line 143.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count119
-\output=\toks30
-\linenoprevgraf=\count120
-\linenumbersep=\dimen137
-\linenumberwidth=\dimen138
-\c@linenumber=\count121
-\c@pagewiselinenumber=\count122
-\c@LN@truepage=\count123
-\c@internallinenumber=\count124
-\c@internallinenumbers=\count125
-\quotelinenumbersep=\dimen139
-\bframerule=\dimen140
-\bframesep=\dimen141
-\bframebox=\box35
+\linenopenalty=\count116
+\output=\toks28
+\linenoprevgraf=\count117
+\linenumbersep=\dimen127
+\linenumberwidth=\dimen128
+\c@linenumber=\count118
+\c@pagewiselinenumber=\count119
+\c@LN@truepage=\count120
+\c@internallinenumber=\count121
+\c@internallinenumbers=\count122
+\quotelinenumbersep=\dimen129
+\bframerule=\dimen130
+\bframesep=\dimen131
+\bframebox=\box32
 LaTeX Info: Redefining \\ on input line 3056.
 ) (./artigo.aux
 
@@ -329,31 +278,31 @@ LaTeX Warning: Label `tabela_hk_stacking' multiply defined.
 )
 \openout1 = `artigo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
  (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count126
-\scratchdimen=\dimen142
-\scratchbox=\box36
-\nofMPsegments=\count127
-\nofMParguments=\count128
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count129
-\MPscratchDim=\dimen143
-\MPnumerator=\count130
-\makeMPintoPDFobject=\count131
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count123
+\scratchdimen=\dimen132
+\scratchbox=\box33
+\nofMPsegments=\count124
+\nofMParguments=\count125
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen133
+\MPnumerator=\count127
+\makeMPintoPDFobject=\count128
+\everyMPtoPDFconversion=\toks30
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -407,263 +356,148 @@ Package caption Info: End \AtBeginDocument code.
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 36.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 34.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 55--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
-\T1/cmr/bx/n/10.95 Keywords: \T1/cmr/m/n/10.95 Cra-tonic basin, South Amer-ica,
- Crustal ar-chi-tec-ture
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--63
-
- []
-
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
-Overfull \hbox (6.04646pt too wide) in paragraph at lines 65--68
-[]\T1/cmr/bx/n/10.95 Supplementary ma-te-rial: \T1/cmr/m/n/10.95 [de-scrip-tion
- of ma-te-rial] is avail-able at https://doi.org/xxxx'.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--68
-\T1/cmr/m/n/10.95 [GSL will as-sign the doi and url un-less you al-ready have o
-ne]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--68
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 76--79
-
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+\T1/cmr/bx/n/10.95 Keywords: \T1/cmr/m/n/10.95 Cra-tonic basin, Crustal ar-chi-
+tec-ture, South Amer-ica
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--79
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
-[2]
-Overfull \hbox (4.57881pt too wide) in paragraph at lines 85--86
+(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+Overfull \hbox (6.04646pt too wide) in paragraph at lines 59--60
+[]\T1/cmr/bx/n/10.95 Supplementary ma-te-rial: \T1/cmr/m/n/10.95 [de-scrip-tion
+ of ma-te-rial] is avail-able at https://doi.org/xxxx'.
+ []
+
+[2] [3] [4]
+Overfull \hbox (4.57881pt too wide) in paragraph at lines 77--78
 []\T1/cmr/m/n/10.95 The de-po-si-tional his-tory of the Par-naíba basin is buil
 t on five pri-mary tectono-sedimentary
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 92--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--96
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 107--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--110
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 115--117
-\T1/cmr/m/n/10.95 crustal ar-chi-tec-ture.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--117
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 145--147
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 159--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--162
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 175--178
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--178
-
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 183--186
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--186
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--194
-\T1/cmr/m/n/10.95 ing a re-search fel-low-ship to con-duct this re-search.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--194
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 191--194
-
- []
-
-(./artigo.bbl [11] [12] [13]) [14]
-Underfull \hbox (badness 1472) in paragraph at lines 224--224
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+[21] [22] [23] [24] [25] [26] [27] [28]
+Underfull \hbox (badness 1472) in paragraph at lines 314--314
 [][]|\T1/cmr/m/it/10.95 Sta-tion co-or-di-nates and record-ing time
  []
 
-[15]
-Overfull \hbox (66.00793pt too wide) in paragraph at lines 237--257
+[29]
+Overfull \hbox (66.00793pt too wide) in paragraph at lines 326--346
  [] 
  []
 
-[16
+[30
 
-] [17
+] [31
 
-] <Fig/Mapa_geologico_BP_grey.pdf, id=72, 1195.46625pt x 845.1575pt>
+] [32]
+<Fig/Mapa_geologico_BP_grey.pdf, id=118, 1195.46625pt x 845.1575pt>
 File: Fig/Mapa_geologico_BP_grey.pdf Graphic file (type pdf)
 
 <use Fig/Mapa_geologico_BP_grey.pdf>
-Package pdftex.def Info: Fig/Mapa_geologico_BP_grey.pdf used on input line 297.
+Package pdftex.def Info: Fig/Mapa_geologico_BP_grey.pdf used on input line 382.
 
 (pdftex.def)             Requested size: 433.62pt x 306.55196pt.
- [18 <./Fig/Mapa_geologico_BP_grey.pdf>]
-<Fig/stations_FR.pdf, id=81, 1445.4pt x 1445.4pt>
+
+<Fig/stations_FR.pdf, id=119, 1445.4pt x 1445.4pt>
 File: Fig/stations_FR.pdf Graphic file (type pdf)
  <use Fig/stations_FR.pdf>
-Package pdftex.def Info: Fig/stations_FR.pdf used on input line 307.
+Package pdftex.def Info: Fig/stations_FR.pdf used on input line 391.
 (pdftex.def)             Requested size: 433.62pt x 433.62335pt.
 
-[19 <./Fig/stations_FR.pdf>]
-<Fig/mosaico_GRJU_STSR.png, id=142, 924.0924pt x 824.1189pt>
+
+LaTeX Warning: Float too large for page by 62.79344pt on input line 395.
+
+<Fig/mosaico_GRJU_STSR.png, id=120, 924.0924pt x 824.1189pt>
 File: Fig/mosaico_GRJU_STSR.png Graphic file (type png)
 
 <use Fig/mosaico_GRJU_STSR.png>
-Package pdftex.def Info: Fig/mosaico_GRJU_STSR.png used on input line 317.
+Package pdftex.def Info: Fig/mosaico_GRJU_STSR.png used on input line 399.
 (pdftex.def)             Requested size: 433.62pt x 386.71976pt.
- [20 <./Fig/mosaico_GRJU_STSR.png>]
-<Fig/joint_inversion_results.png, id=148, 943.48485pt x 611.04285pt>
+
+
+LaTeX Warning: Float too large for page by 43.08986pt on input line 404.
+
+<Fig/joint_inversion_results.png, id=122, 943.48485pt x 611.04285pt>
 File: Fig/joint_inversion_results.png Graphic file (type png)
 
 <use Fig/joint_inversion_results.png>
-Package pdftex.def Info: Fig/joint_inversion_results.png used on input line 327
+Package pdftex.def Info: Fig/joint_inversion_results.png used on input line 408
 .
 (pdftex.def)             Requested size: 433.62pt x 280.83138pt.
- [21 <./Fig/joint_inversion_results.png>]
-<Fig/section_joint_inversion_25.pdf, id=153, 1806.75pt x 578.16pt>
+
+<Fig/section_migration.png, id=123, 688.58856pt x 573.96834pt>
+File: Fig/section_migration.png Graphic file (type png)
+
+<use Fig/section_migration.png>
+Package pdftex.def Info: Fig/section_migration.png used on input line 416.
+(pdftex.def)             Requested size: 433.62pt x 361.45308pt.
+
+
+LaTeX Warning: Float too large for page by 45.0232pt on input line 420.
+
+<Fig/section_joint_inversion_25.pdf, id=124, 1806.75pt x 578.16pt>
 File: Fig/section_joint_inversion_25.pdf Graphic file (type pdf)
 
 <use Fig/section_joint_inversion_25.pdf>
 Package pdftex.def Info: Fig/section_joint_inversion_25.pdf used on input line 
-339.
-(pdftex.def)             Requested size: 693.79463pt x 222.01443pt.
+424.
+(pdftex.def)             Requested size: 476.98463pt x 152.62941pt.
 
-Overfull \hbox (43.36464pt too wide) in paragraph at lines 339--340
+Overfull \hbox (43.36464pt too wide) in paragraph at lines 424--425
  [] 
  []
 
-[22
-
- <./Fig/section_joint_inversion_25.pdf>]
-<Fig/section_migration.png, id=210, 688.58856pt x 573.96834pt>
-File: Fig/section_migration.png Graphic file (type png)
-
-<use Fig/section_migration.png>
-Package pdftex.def Info: Fig/section_migration.png used on input line 351.
-(pdftex.def)             Requested size: 433.62pt x 361.45308pt.
- [23
-
- <./Fig/section_migration.png>]
-(./artigo.aux)
+[33 <./Fig/Mapa_geologico_BP_grey.pdf>] [34 <./Fig/stations_FR.pdf>] [35 <./Fig
+/mosaico_GRJU_STSR.png>] [36 <./Fig/joint_inversion_results.png>] [37 <./Fig/se
+ction_migration.png>] [38 <./Fig/section_joint_inversion_25.pdf>] (./artigo.aux
+)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6842 strings out of 494910
- 99296 string characters out of 6179837
- 173131 words of memory out of 5000000
- 9981 multiletter control sequences out of 15000+600000
- 15521 words of font info for 42 fonts, out of 8000000 for 9000
+ 5956 strings out of 494910
+ 83281 string characters out of 6179837
+ 153548 words of memory out of 5000000
+ 9134 multiletter control sequences out of 15000+600000
+ 14834 words of font info for 41 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 53i,11n,92p,2207b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,11n,40p,1950b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </home/d
 iogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </home/diogo/.texmf
 -var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/diogo/.texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecti1728.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm1095.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/
-ecti1095.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.60
-0pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.600pk> </home
-/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb>
-Output written on artigo.pdf (23 pages, 11284090 bytes).
+pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecti1095.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecbx1095.600pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0600.60
+0pk> </home/diogo/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb>
+Output written on artigo.pdf (38 pages, 11288723 bytes).
 PDF statistics:
- 639 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
+ 667 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
