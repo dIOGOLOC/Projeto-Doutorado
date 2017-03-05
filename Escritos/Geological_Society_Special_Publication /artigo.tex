@@ -9,6 +9,8 @@
 \newcommand{\rs}[1]{\mathstrut\mbox{\scriptsize\rm #1}}
 \newcommand{\rr}[1]{\mbox{\rm #1}}
 
+\usepackage{adjustbox}
+
 \usepackage[english]{babel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8x]{inputenc}
@@ -17,7 +19,7 @@
 
 \usepackage[hang,tableposition=top, labelfont=bf,textfont=it]{caption} % Custom captions under/above floats in tables or figures
 \usepackage{threeparttable}
-
+\usepackage{lscape}
 \usepackage{amsmath}
 
 
@@ -223,33 +225,38 @@ Acquisition and analysis of the dataset presented in this study was funded throu
     \label{tabela_estacoes}
 	\end{threeparttable}
 \end{table}
+\pagebreak
 
 
+\begin{landscape}
 \begin{table}[! htpb]
 \centering
-\tiny
+
+\small
 	\begin{threeparttable}
 \caption{H-$\kappa$ stacking parameters and results to different values of Vp from Parnaíba basin .}
 \label{tabela_hk_stacking}
-\begin{tabular}{cc|cccc|cccc}
- &  & \multicolumn{4}{|c|}{H (km) $\pm \epsilon$} & \multicolumn{4}{|c|}{Vp/Vs $\pm \epsilon$} \\ \hline
-Station & n & Vp 6.3 & Vp 6.4 & Vp 6.5 & Vp 6.6 & Vp 6.3 & Vp 6.4 & Vp 6.5 & Vp 6.5\\ \hline
-BPPF & 5  & 41.2 $\pm$ 2.9 & 42.0 $\pm$ 3.4 & 42.9 $\pm$ 4.5 & 43.7 $\pm$ 4.5 & 1.75 $\pm$ 0.07 & 1.74 $\pm$ 0.07 & 1.73 $\pm$ 0.08	 & 1.73 $\pm$ 0.08 \\
-BUCO & 11 & 38.0 $\pm$ 0.8 & 38.7 $\pm$ 0.7 & 39.5 $\pm$ 0.8 & 40.4 $\pm$ 0.9 & 1.73 $\pm$ 0.03 & 1.73 $\pm$ 0.02 & 1.72 $\pm$ 0.03  & 1.72 $\pm$ 0.03 \\
-GENI & 7  & 43.7 $\pm$ 1.5 & 44.5 $\pm$ 2.2 & 45.4 $\pm$ 2.1 & 46.2 $\pm$ 2.1 & 1.77 $\pm$ 0.06 & 1.76 $\pm$ 0.05 & 1.76 $\pm$ 0.06	 & 1.75 $\pm$ 0.06 \\
-GRJU & 11 & 40.9 $\pm$ 1.8 & 41.7 $\pm$ 1.9 & 42.5 $\pm$ 2.2 & 43.2 $\pm$ 1.7 & 1.83 $\pm$ 0.05 & 1.82 $\pm$ 0.05 & 1.82 $\pm$ 0.06	 & 1.81 $\pm$ 0.05 \\
-PRDT & 11 & 38.7 $\pm$ 3.3 & 39.5 $\pm$ 3.5 & 40.2 $\pm$ 3.6 & 41.0 $\pm$ 3.5 & 1.81 $\pm$ 0.09 & 1.80 $\pm$ 0.09 & 1.80 $\pm$ 0.10	 & 1.80 $\pm$ 0.09 \\
-STSN & 12 & 40.4 $\pm$ 1.8 & 41.2 $\pm$ 2.2 & 42.0 $\pm$ 2.5 & 42.7 $\pm$ 2.6 & 1.75 $\pm$ 0.04 & 1.75 $\pm$ 0.05 & 1.74 $\pm$ 0.05	 & 1.74 $\pm$ 0.05 \\
-STSR & 8  & 38.5 $\pm$ 0.2 & 39.4 $\pm$ 0.2 & 40.2 $\pm$ 0.2 & 40.9 $\pm$ 0.3 & 1.69 $\pm$ 0.01 & 1.68 $\pm$ 0.01 & 1.68 $\pm$ 0.01	 & 1.68 $\pm$ 0.01 \\
-TRSN & 12 & 38.0 $\pm$ 2.8 & 38.9 $\pm$ 2.8 & 39.7 $\pm$ 3.0 & 40.4 $\pm$ 2.8 & 1.75 $\pm$ 0.07 & 1.74 $\pm$ 0.07 & 1.74 $\pm$ 0.07	 & 1.73 $\pm$ 0.06 \\
-BDCO & 3  & 40.0 $\pm$ 3.2 & 40.7 $\pm$ 3.4 & 41.5 $\pm$ 3.3 & 42.5 $\pm$ 3.3 & 1.70 $\pm$ 0.07 & 1.69 $\pm$ 0.08 & 1.69 $\pm$ 0.07  & 1.68 $\pm$ 0.07 \\ \hline
+\begin{tabular}{ccc|ccccc|ccccc}
+ &  & & \multicolumn{5}{|c|}{H (km) $\pm \epsilon$} & \multicolumn{5}{|c|}{Vp/Vs $\pm \epsilon$} \\ \hline
+Station & n & w1,w2,w3 & Vp 6.3 & Vp 6.4 & Vp 6.5 & Vp 6.6 & Vp 6.7 & Vp 6.3 & Vp 6.4 & Vp 6.5 & Vp 6.6 & Vp 6.7 \\ \hline
+BPPF & 5 & 0.5,0.5,0.0 & 41.4 $\pm$ 2.2 & 42.2 $\pm$ 3.0 & 42.7 $\pm$ 3.2 & 43.5 $\pm$ 2.3 & 44.5 $\pm$ 2.2 & 1.75 $\pm$ 0.05 & 1.74 $\pm$ 0.05 & 1.74 $\pm$ 0.06 & 1.74 $\pm$ 0.04 & 1.73 $\pm$ 0.04 \\
+BUCO & 11 & 0.4,0.3,0.3 & 38.0 $\pm$ 0.8 & 38.7 $\pm$ 0.7 & 39.5 $\pm$ 0.8 & 40.4 $\pm$ 0.9 & 41.0 $\pm$ 1.4 & 1.73 $\pm$ 0.03 & 1.73 $\pm$ 0.02 & 1.72 $\pm$ 0.03  & 1.72 $\pm$ 0.03 & 1.71 $\pm$ 0.03\\
+GENI & 7 & 0.5,0.5,0.0 & 43.7 $\pm$ 1.4 & 44.7 $\pm$ 2.5 & 45.5 $\pm$ 1.9 & 46.4 $\pm$ 1.9 & 47.2 $\pm$ 1.5 & 1.76 $\pm$ 0.05 & 1.76 $\pm$ 0.06 & 1.75 $\pm$ 0.05 & 1.75 $\pm$ 0.06 & 1.74 $\pm$ 0.05  \\
+GRJU & 11 & 0.4,0.3,0.3 & 40.9 $\pm$ 1.8 & 41.7 $\pm$ 1.9 & 42.5 $\pm$ 2.2 & 43.2 $\pm$ 1.7 & 44.0 $\pm$ 1.3  & 1.83 $\pm$ 0.05 & 1.82 $\pm$ 0.05 & 1.82 $\pm$ 0.06 & 1.81 $\pm$ 0.05 & 1.81 $\pm$ 0.04 \\
+PRDT & 11 & 0.4,0.3,0.3 & 38.7 $\pm$ 3.3 & 39.5 $\pm$ 3.5 & 40.2 $\pm$ 3.6 & 41.0 $\pm$ 3.5 & 41.9 $\pm$ 3.6 & 1.81 $\pm$ 0.09 & 1.80 $\pm$ 0.09 & 1.80 $\pm$ 0.10 & 1.80 $\pm$ 0.09 & 1.79 $\pm$ 0.08 \\
+STSN & 12 & 0.4,0.3,0.3 & 40.4 $\pm$ 1.8 & 41.2 $\pm$ 2.2 & 42.0 $\pm$ 2.5 & 42.7 $\pm$ 2.6 & 44.0 $\pm$ 1.5  & 1.75 $\pm$ 0.04 & 1.75 $\pm$ 0.05 & 1.74 $\pm$ 0.05 & 1.74 $\pm$ 0.05 & 1.72 $\pm$ 0.03  \\
+STSR & 8 & 0.4,0.3,0.3 & 38.5 $\pm$ 0.2 & 39.4 $\pm$ 0.2 & 40.2 $\pm$ 0.2 & 40.9 $\pm$ 0.3 & 41.7 $\pm$ 0.3 & 1.69 $\pm$ 0.01 & 1.68 $\pm$ 0.01 & 1.68 $\pm$ 0.01 & 1.68 $\pm$ 0.01 & 1.67 $\pm$ 0.01 \\
+TRSN & 12 & 0.4,0.3,0.3 & 38.0 $\pm$ 2.8 & 38.9 $\pm$ 2.8 & 39.7 $\pm$ 3.0 & 40.4 $\pm$ 2.8 & 41.2 $\pm$ 3.3  & 1.75 $\pm$ 0.07 & 1.74 $\pm$ 0.07 & 1.74 $\pm$ 0.07 & 1.73 $\pm$ 0.06 & 1.73 $\pm$ 0.07 \\
+BDCO & 3 & 0.4,0.3,0.3 & 40.0 $\pm$ 3.2 & 40.7 $\pm$ 3.4 & 41.5 $\pm$ 3.3 & 42.5 $\pm$ 3.3 & 43.2 $\pm$ 3.3  & 1.70 $\pm$ 0.07 & 1.69 $\pm$ 0.08 & 1.69 $\pm$ 0.07 & 1.68 $\pm$ 0.07 & 1.68 $\pm$ 0.08 \\ \hline
 \end{tabular}
 	\begin{tablenotes}\footnotesize
-	\item[*] The table includes the number of waveforms (n), P-wave velocity assumed (Vp), weights for the Ps (w1), PpPs (w2), and PpSs + PsPs (w3) phases are 0.4,0.3,0.3, respectivaly.
+	\item[*] The table includes the number of waveforms (n), P-wave velocity assumed (Vp), weights for the Ps (w1), PpPs (w2), and PpSs + PsPs (w3) phases, respectively.
     \end{tablenotes}
     \label{tabela_hk_stacking}
 	\end{threeparttable}
 \end{table}
+\end{landscape}
+
 
 
 \pagebreak
@@ -270,10 +277,10 @@ BDCO & 3  & 40.0 $\pm$ 3.2 & 40.7 $\pm$ 3.4 & 41.5 $\pm$ 3.3 & 42.5 $\pm$ 3.3 & 
 \textbf{Fig. 4.} Joint inversion panels for STSN and BUCO stations. a-d) display the initial and final S-velocity models; b-e) fits between the receiver
 functions observed and predicted; e-f) fits between the group velocities observed and predicted.
 
-\textbf{Fig. 5.} Joint inversion models for each station sorted according the station location in Figure \ref{mapa_estacoes_geologico}. Colors represent S-wave velocities: The sedimentary layer, > 3.2 $km/s$ (white); crust, between 3.2 to 4.3 $km/s$ (gray); and mantle, < 4.3 $km/s$ (dark gray). These values are based in models calculated from \cite{mooney_crust_1998}. Dashed line represents the 3 km depth and the black segments are the H-$\kappa$ stacking results with error estimates, Adopting a Vp of 6.4 $km/s$.
+\textbf{Fig. 5.} Mosaic with the piercing points map, S-wave velocity model and the migrated cross-section. a) map with the the seismic stations (black triangles), piercing points of the CCP migration (open circles) and CCP profile (black line). b) average S-wave velocity model for the PBAP stations. c) color-coded receiver function stacked amplitudes. Red colors indicate positive amplitudes (i.e., positive velocity contrast), while blue colors indicate negative amplitudes (i.e., negative velocity contrast). The black segments mark the location of the Moho Ps conversion at the crust–mantle boundary from bootstrapping.
 
+\textbf{Fig. 6.} Joint inversion models for each station sorted according the station location in Figure \ref{mapa_estacoes_geologico}. Colors represent S-wave velocities: The sedimentary layer, > 3.2 $km/s$ (white); crust, between 3.2 to 4.3 $km/s$ (gray); and mantle, < 4.3 $km/s$ (dark gray). These values are based in models calculated from \cite{mooney_crust_1998}. Dashed line represents the 3 km depth and the black segments are the H-$\kappa$ stacking results with error estimates, Adopting a Vp of 6.4 $km/s$.
 
-\textbf{Fig. 6.} Mosaic with the piercing points map, S-wave velocity model and the migrated cross-section. a) map with the the seismic stations (black triangles), piercing points of the CCP migration (open circles) and CCP profile (black line). b) average S-wave velocity model for the PBAP stations. c) color-coded receiver function stacked amplitudes. Red colors indicate positive amplitudes (i.e., positive velocity contrast), while blue colors indicate negative amplitudes (i.e., negative velocity contrast). The black segments mark the location of the Moho Ps conversion at the crust–mantle boundary from bootstrapping.
     
 \pagebreak
 
@@ -293,6 +300,7 @@ functions observed and predicted; e-f) fits between the group velocities observe
 \end{center}
 \end{figure}
 
+\pagebreak
 
 \begin{figure}[!ht]
 \begin{center}
@@ -302,6 +310,8 @@ functions observed and predicted; e-f) fits between the group velocities observe
 \end{center}
 \end{figure}
 
+\pagebreak
+
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=\textwidth]{Fig/mosaico_GRJU_STSR.png}
@@ -309,6 +319,8 @@ functions observed and predicted; e-f) fits between the group velocities observe
 \label{moisaic_FR}
 \end{center}
 \end{figure}
+
+\pagebreak
 
 \begin{figure}[!ht]
 \begin{center}
@@ -319,15 +331,7 @@ functions observed and predicted; e-f) fits between the group velocities observe
 \end{center}
 \end{figure}
 
-\begin{figure}[!ht]
-\begin{center}
-\includegraphics[width=1.1\textwidth]{Fig/section_joint_inversion_25.pdf}
-\caption{Joint inversion models for each station sorted according the station location in Figure \ref{mapa_estacoes_geologico}. Colors represent S-wave velocities: The sedimentary layer, > 3.2 $km/s$ (white); crust, between 3.2 to 4.3 $km/s$ (gray); and mantle, < 4.3 $km/s$ (dark gray). These values are based in models calculated from \cite{mooney_crust_1998}. Dashed line represents the 3 km depth and the black segments are the H-$\kappa$ stacking results with error estimates, Adopting a Vp of 6.4 $km/s$.}
-\label{moisaic_joint_inversion}
-\end{center}
-\end{figure}
-
-
+\pagebreak
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=\textwidth]{Fig/section_migration.png}
@@ -336,4 +340,16 @@ functions observed and predicted; e-f) fits between the group velocities observe
 \end{center}
 \end{figure}
  
+\pagebreak
+
+\begin{landscape}
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics[width=1.6\textwidth]{Fig/section_joint_inversion_25.pdf}
+\caption{Joint inversion models for each station sorted according the station location in Figure \ref{mapa_estacoes_geologico}. Colors represent S-wave velocities: The sedimentary layer, > 3.2 $km/s$ (white); crust, between 3.2 to 4.3 $km/s$ (gray); and mantle, < 4.3 $km/s$ (dark gray). These values are based in models calculated from \cite{mooney_crust_1998}. Dashed line represents the 3 km depth and the black segments are the H-$\kappa$ stacking results with error estimates, Adopting a Vp of 6.4 $km/s$.}
+\label{moisaic_joint_inversion}
+\end{center}
+\end{figure}
+\end{landscape}
+
 \end{document}
